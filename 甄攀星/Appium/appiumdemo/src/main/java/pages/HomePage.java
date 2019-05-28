@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import io.appium.java_client.android.AndroidDriver;
 import utils.Actions;
 
+//APP首页
 public class HomePage {
     @FindBy(linkText = "新闻")
     private WebElement newBar;

@@ -7,17 +7,22 @@
 //
 //import io.appium.java_client.MobileElement;
 //import io.appium.java_client.android.Activity;
+//import io.appium.java_client.android.AndroidDriver;
 //import io.appium.java_client.android.AndroidElement;
 //import io.appium.java_client.android.AndroidTouchAction;
 //import io.appium.java_client.functions.ActionSupplier;
+//import io.appium.java_client.service.local.AppiumDriverLocalService;
 //import io.appium.java_client.touch.offset.ElementOption;
 //import org.junit.Test;
 //import org.openqa.selenium.Point;
+//import org.openqa.selenium.WebElement;
 //
 //import java.util.List;
 //
 //public class AndroidAbilityToUseSupplierTest{
-//
+//    private AndroidDriver<WebElement> driver;
+//    private static AppiumDriverLocalService service;
+////    private final String PACKAGE = "io.appium.android.apis:id/gallery";
 //    private final ActionSupplier<AndroidTouchAction> horizontalSwipe = () -> {
 //        driver.findElementById("io.appium.android.apis:id/gallery");
 //
@@ -37,9 +42,8 @@
 //                .release();
 //    };
 //
-//    private final ActionSupplier<AndroidTouchAction> verticalSwiping = () ->
-//        new AndroidTouchAction(driver)
-//                .press(element(driver.findElementByAccessibilityId("Gallery")))
+//    private final ActionSupplier<AndroidTouchAction> verticalSwiping = ()
+//        new AndroidTouchAction(driver).press(element(driver.findElementByAccessibilityId("Gallery")))
 //
 //                .waitAction(waitOptions(ofSeconds(2)))
 //

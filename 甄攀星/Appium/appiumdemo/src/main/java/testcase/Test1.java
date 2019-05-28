@@ -5,20 +5,21 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
+import java.awt.Button;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import io.appium.java_client.android.AndroidDriver;
-
+import swipe.*;
 public class Test1 {
     public AndroidDriver<WebElement> driver;
 
     public AndroidDriver getDriver() {
         return driver;
     }
-
+    public Button anniu;
     @Test
     public void StartApp() throws IOException {
         File classpathRoot = new File(System.getProperty("user.dir"));
@@ -39,7 +40,19 @@ public class Test1 {
 
         driver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-//        driver.findElementByLinkText("新闻");
+        SwipeClass swipeClass=new SwipeClass();
+        swipeClass.swipeToLeft(driver);
+        swipeClass.swipeToLeft(driver);
+        swipeClass.swipeToLeft(driver);
+        swipeClass.swipeToLeft(driver);
+        swipeClass.swipeToLeft(driver);
+//        swipeClass.swipeToLeft(driver);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//        driver.findElementByLinkText("立即体验").click()
+
+        driver.findElementById("startButton").click();
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.findElementsByAccessibilityId("新闻");
 
     }
 }

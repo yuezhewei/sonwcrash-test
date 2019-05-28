@@ -14,6 +14,9 @@ public class NewbarTest extends BaseTest1 {
     public void openNewBar()
     {
         HomePage homePage=new HomePage(getDriver());
+        driver.findElementByClassName("android.widget.TextView");
+
+
     }
 
 
