@@ -3,6 +3,8 @@ package utils;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 
+import java.time.Duration;
+
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidBatteryInfo;
 import io.appium.java_client.android.AndroidDriver;
@@ -73,4 +75,6 @@ public class Actions {
                 .moveTo(point(toPoint.x, toPoint.y))
                .perform();
     }
+
+
 }
