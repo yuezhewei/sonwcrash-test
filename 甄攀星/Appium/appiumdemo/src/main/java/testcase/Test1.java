@@ -13,6 +13,9 @@ import java.util.concurrent.TimeUnit;
 
 import io.appium.java_client.android.AndroidDriver;
 import swipe.*;
+
+import static org.seleniumhq.jetty9.util.LazyList.contains;
+
 public class Test1 {
     public AndroidDriver<WebElement> driver;
 
@@ -48,11 +51,23 @@ public class Test1 {
         swipeClass.swipeToLeft(driver);
 //        swipeClass.swipeToLeft(driver);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//        driver.findElementByLinkText("立即体验").click()
 
         driver.findElementById("startButton").click();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.findElementsByAccessibilityId("新闻");
+//        driver.findElementsByAccessibilityId("新闻");
+
+
+//        driver.findElementByXPath("android.support.v7.app.ActionBar$Tab{新闻}").click();
+//        driver.findElementByXPath("//android.widget.TextView[contains(@index,0)]").click();
+//        driver.findElementByXPath("//android.support.v7.app.ActionBar$Tab/android.widget.TextView[contains(@text,'新闻')]").click();
+//        driver.findElementByLinkText("电台").click();
+//        driver.findElementByAndroidUIAutomator("新闻").click();
+//        driver.findElementByName("新闻").click();
+//        driver.findElementByXPath("//android:id/tabhost/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.support.v7.app.ActionBar$Tab/android.widget.TextView").click();
+//        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/content").click();
 
     }
+
+
+
 }
