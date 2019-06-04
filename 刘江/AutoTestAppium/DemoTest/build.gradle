@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('src/main/java/libs/commons-lang3-3.8.jar')
+    implementation files('src/main/java/libs/commons-io-2.6.jar')
+    implementation files('src/main/java/libs/java-client-7.0.0.jar')
+    implementation files('src/main/java/libs/selenium-server-standalone-3.6.0.jar')
+    implementation files('src/main/java/libs/slf4j-api-1.7.25.jar')
+    implementation files('src/main/java/libs/selenium-java-3.141.59.jar')
+    implementation 'org.testng:testng:6.9.6'
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
