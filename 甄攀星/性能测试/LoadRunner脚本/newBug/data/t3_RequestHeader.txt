@@ -1,0 +1,13 @@
+POST /bugfree/index.php/site/login HTTP/1.1
+Accept: application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*
+Referer: http://192.168.28.1:8032/bugfree/index.php/site/login
+Accept-Language: zh-CN
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729)
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: 192.168.28.1:8032
+Content-Length: 146
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: PHPSESSID=puse7tejfabqo3huenanth12k7; language=33142191c8a895b509ca2fb6f6cc597a3125f158s%3A5%3A%22zh_cn%22%3B; 1_product=7c70d8babf6c2622289bddd2d2097c2d8906867cs%3A1%3A%221%22%3B
+

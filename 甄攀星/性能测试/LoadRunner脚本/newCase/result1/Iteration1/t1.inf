@@ -1,0 +1,25 @@
+[t1]
+FileName2=t1_5_favicon.ico
+FileName5=t1_2_jquery.UNK
+FileName4=t1_3_logo_login.png
+FileName7=t1_0_blue.css
+FileName6=t1_1_bugfree3_basic.css
+RequestBodyFile=t1_RequestBody.txt
+ContentType=text/html
+URL1=http://192.168.28.1:8032/bugfree/index.php/site/login
+URL2=http://www.bing.com/favicon.ico
+URL3=http://192.168.28.1:8032/bugfree/themes/classic/assets/images/blue/seperate_line.png
+ResponseHeaderFile=t1_ResponseHeader.txt
+URL4=http://192.168.28.1:8032/bugfree/themes/classic/assets/images/blue/logo_login.png
+URL5=http://192.168.28.1:8032/bugfree/assets/65cb0d52/jquery.min.js
+URL6=http://192.168.28.1:8032/bugfree/themes/classic/assets/css/bugfree3_basic.css
+URL7=http://192.168.28.1:8032/bugfree/themes/classic/assets/css/blue.css
+SnapshotXmlFile=snapshot_1.xml
+RequestHeaderFile=t1_RequestHeader.txt
+SaveSnapshotResources=1
+Total=7
+StepName=Url: login
+FileName1=t1.html
+FileName3=t1_4_seperate_line.png
+[AdditionalInfo]
+IsIgnorable=0

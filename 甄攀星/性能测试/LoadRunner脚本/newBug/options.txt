@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Demo\newBug
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\demo\newbug\\logfile.log
+c:\demo\newbug\\combined_newBug.c
+c:\demo\newbug\\pre_cci.c
