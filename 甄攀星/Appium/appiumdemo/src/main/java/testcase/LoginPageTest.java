@@ -3,20 +3,17 @@ package testcase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import base.BaseTest;
+import base.BaseTest2;
 import pages.LoginPage;
-import pages.LoginPage2;
 
-public class LoginPageTest extends BaseTest {
-//测试用例
+public class LoginPageTest extends BaseTest2 {
     @Test
     public void loginsuccessful()
     {
-//        LoginPage loginPage=new LoginPage(getDriver());
-//        LoginPage2 loginPage=new LoginPage2(getDriver());
-//        loginPage.login("1","1");
-//        System.out.print(getDriver().currentActivity);
+        LoginPage loginPage=new LoginPage(getDriver());
+        loginPage.login("15732176510","zhen0820");
+
         //断言
-//        Assert.assertEquals(".MainActivity",getDriver().currentActivity());
+        Assert.assertEquals(".MainActivity",getDriver().currentActivity());
     }
 }
