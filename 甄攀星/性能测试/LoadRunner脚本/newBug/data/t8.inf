@@ -1,0 +1,15 @@
+[t8]
+FileName1=t8.htm
+URL1=http://192.168.28.1:8032/bugfree/index.php/search/userList?p=-1&q=&limit=60&timestamp=1558946348895
+Total=2
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_8.xml
+FileName2=t8_indicator.gif
+URL2=http://192.168.28.1:8032/bugfree/assets/f94ed65d/indicator.gif
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1
