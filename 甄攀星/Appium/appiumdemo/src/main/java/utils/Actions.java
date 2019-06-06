@@ -19,7 +19,8 @@ import static io.appium.java_client.touch.LongPressOptions.longPressOptions;
 import static io.appium.java_client.touch.WaitOptions.waitOptions;
 import static io.appium.java_client.touch.offset.ElementOption.element;
 import static io.appium.java_client.touch.offset.PointOption.point;
-import static java.time.Duration.from;
+import static java.time.Duration.ofDays;
+import static java.time.Duration.ofMillis;
 import static java.time.Duration.ofSeconds;
 
 public class Actions {
@@ -28,8 +29,8 @@ public class Actions {
     TouchAction ta;
     public Actions(AndroidDriver<WebElement> driver){
         this.driver=driver;
-         aca= new AndroidTouchAction(driver);
-         ta = new TouchAction(driver);
+        AndroidTouchAction aca= new AndroidTouchAction(driver);
+        TouchAction ta = new TouchAction(driver);
     }
 
     public void type(WebElement element,String context){
@@ -75,6 +76,8 @@ public class Actions {
                 .moveTo(point(toPoint.x, toPoint.y))
                .perform();
     }
+
+
 
 
 }

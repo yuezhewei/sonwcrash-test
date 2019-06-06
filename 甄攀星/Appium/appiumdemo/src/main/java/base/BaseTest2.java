@@ -2,6 +2,7 @@ package base;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import java.awt.Button;
@@ -19,7 +20,7 @@ public class BaseTest2 {
         return driver;
     }
     public Button anniu;
-    @Test
+    @BeforeSuite
     public void StartApp() throws IOException {
         File classpathRoot = new File(System.getProperty("user.dir"));
         File appDir = new File(classpathRoot, "/apps");
@@ -40,8 +41,10 @@ public class BaseTest2 {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElementById("startButton").click();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        //新闻菜单下
         swipeClass.swipeToLeft(driver);
 //        swipeClass.swipeToDown(driver);
+        //电台菜单下
         swipeClass.swipeToLeft(driver);
         swipeClass.swipeToLeft(driver);
         swipeClass.swipeToLeft(driver);
@@ -50,11 +53,20 @@ public class BaseTest2 {
         swipeClass.swipeToDown(driver);
         swipeClass.swipeToDown(driver);
         //点击电台
-        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/radio_image").click();
-        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/mp3_next").click();
-        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/mp3_play").click();
-//        WebElement w1=driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/page_layout");
-
+//        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/radio_image").click();
+//        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/mp3_next").click();
+//        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/mp3_play").click();
+        // WebElement w1=driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/page_layout");
+        //登录
+        driver.findElementByAccessibilityId("转到上一层级").click();
+//        driver.findElementByClassName("android.widget.ImageButton").click();
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+//        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/icon_image").click();
+//        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/et_username").sendKeys("15732176510");
+//        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/et_password").sendKeys("zhen0820");
+//        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/btn_login").click();
+        //或
+//        driver.findElementByName("login").click();
         //新闻第一条可以换成长按
 //        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/tv_nickname").click();
 
