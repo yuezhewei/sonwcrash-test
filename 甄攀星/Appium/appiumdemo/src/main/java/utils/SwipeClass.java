@@ -7,7 +7,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class SwipeClass{
+public class SwipeClass {
     AndroidDriver driver;
 
     static Duration duration=Duration.ofSeconds(1);
@@ -18,7 +18,6 @@ public class SwipeClass{
                 .moveTo(PointOption.point(width/2, height/4)).release();
         action1.perform();
     }
-
 
     public void swipeToDown(AndroidDriver driver) {
         int width = driver.manage().window().getSize().width;
