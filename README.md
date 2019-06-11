@@ -33,13 +33,13 @@
 	<ul>
 	<li>Email:952184149@qq.com</li>
 	<li>Github:https://github.com/lixinran</li>
+       </ul>		
 <li>张玉(测试开发工程师)
 	<ul>
 	<li>Email:1336448191@qq.com</li>
 	<li>Github:https://github.com/zhangyu</li>
 	</ul>
 </ul>
-<h3>原型图：https://modao.cc/app/IF3fbNJsHrVcSuz84SJfiskUveyQpYk
 <h3>运行效果：<br/>
 
 <img src="https://github.com/zhangqiang216/SnowCrash/blob/master/snowcrash/%E6%95%88%E6%9E%9C%E5%9B%BE/sc1.png" height="400" width="200"/>
