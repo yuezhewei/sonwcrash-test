@@ -23,8 +23,8 @@ public class TxtDataProvider {
 		FileInputStream fis = new FileInputStream(file);
 		InputStreamReader isr= new InputStreamReader(fis);
 		BufferedReader reader = new BufferedReader(isr);
-		int cols=reader.readLine().split("\t").length;
-		
+		int cols=reader.readLine().split(",").length;
+//		System.out.println(cols);
 		String readData;
 		while((readData=reader.readLine())!=null) {
 			dataList.add(readData);
@@ -33,14 +33,13 @@ public class TxtDataProvider {
 		Object [][] result = new Object[dataList.size()][cols];
 		String [] arrays;
 		for(int i=0;i<dataList.size();i++) {
-			arrays=dataList.get(i).split("\t");
+			arrays=dataList.get(i).split(",");
 			for(int j=0;j<cols;j++)
 				result[i][j]=arrays[j];
 		}
 		return result;
 		
 	}
-
 
 	
 

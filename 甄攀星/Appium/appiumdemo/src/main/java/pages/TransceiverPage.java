@@ -5,7 +5,7 @@ import javax.swing.Action;
 import io.appium.java_client.android.AndroidDriver;
 import swipe.SwipeClass;
 import utils.Actions;
-//电台主页
+//电台页面
 public class TransceiverPage {
     @FindBy(id="radio_image")
     private String radio_image;
