@@ -1,0 +1,13 @@
+[t14]
+FileName1=t14_main.html
+URL1=http://192.168.109.1:8032/bugfree/themes/classic/assets/js/main.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_14.xml
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t14_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

@@ -1,0 +1,13 @@
+[t59]
+FileName1=t59_kindeditor-min.html
+URL1=http://192.168.109.1:8032/bugfree/assets/a2a4058f/kindeditor-min.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_59.xml
+RequestHeaderFile=t59_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t59_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

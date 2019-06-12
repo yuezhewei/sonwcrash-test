@@ -1,0 +1,13 @@
+[t45]
+FileName1=t45_overlib.html
+URL1=http://192.168.109.1:8032/bugfree/themes/classic/assets/js/overlib.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_45.xml
+RequestHeaderFile=t45_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t45_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

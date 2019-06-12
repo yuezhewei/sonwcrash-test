@@ -1,0 +1,13 @@
+[t21]
+FileName1=t21_jquery.ajaxQueue.html
+URL1=http://192.168.109.1:8032/bugfree/assets/f94ed65d/jquery.ajaxQueue.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_21.xml
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t21_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

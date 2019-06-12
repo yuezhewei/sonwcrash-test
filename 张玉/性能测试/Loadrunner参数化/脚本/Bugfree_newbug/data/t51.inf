@@ -1,0 +1,13 @@
+[t51]
+FileName1=t51_jquery.autocomplete.css
+URL1=http://192.168.109.1:8032/bugfree/assets/f94ed65d/jquery.autocomplete.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_51.xml
+RequestHeaderFile=t51_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t51_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

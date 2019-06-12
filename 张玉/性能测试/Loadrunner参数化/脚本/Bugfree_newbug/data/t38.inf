@@ -1,0 +1,13 @@
+[t38]
+FileName1=t38_ui-bg_flat_75_ffffff_40x100.png
+URL1=http://192.168.109.1:8032/bugfree/assets/65cb0d52/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png
+Total=1
+ContentType=image/png
+SnapshotXmlFile=snapshot_38.xml
+RequestHeaderFile=t38_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t38_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

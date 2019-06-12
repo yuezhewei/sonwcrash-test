@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Mon, 27 May 2019 06:20:31 GMT
+Server: Apache/2.4.6 (Win32) PHP/5.5.1
+Last-Modified: Wed, 18 Jul 2012 06:23:48 GMT
+ETag: "4e-4c514b4ab8500"
+Accept-Ranges: bytes
+Content-Length: 78
+Keep-Alive: timeout=5, max=95
+Connection: Keep-Alive
+Content-Type: image/gif
+

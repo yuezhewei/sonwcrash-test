@@ -1,0 +1,13 @@
+[t8]
+FileName1=t8_favicon_blue.ico
+URL1=http://192.168.109.1:8032/bugfree/favicon_blue.ico
+Total=1
+ContentType=image/x-icon
+SnapshotXmlFile=snapshot_8.xml
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

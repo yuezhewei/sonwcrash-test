@@ -1,0 +1,13 @@
+[t44]
+FileName1=t44_style.css
+URL1=http://192.168.109.1:8032/bugfree/themes/classic/assets/css/style.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_44.xml
+RequestHeaderFile=t44_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t44_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

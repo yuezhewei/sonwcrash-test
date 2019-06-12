@@ -1,0 +1,13 @@
+[t22]
+FileName1=t22_jquery.cookie.html
+URL1=http://192.168.109.1:8032/bugfree/assets/f94ed65d/jquery.cookie.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_22.xml
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t22_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1
