@@ -42,10 +42,20 @@ public class BaseTest2 {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElementById("startButton").click();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.findElementByName("搜索");
+//    driver.findElementByXPath("//*[@text='搜索']").click();
         //新闻菜单下
-//        swipeClass.swipeToLeft(driver);
+        swipeClass.swipeToLeft(driver);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        swipeClass.swipeToDown(driver);
+        swipeClass.swipeToDown(driver);
+        swipeClass.swipeToDown(driver);
+        swipeClass.swipeToLeft(driver);
+        swipeClass.swipeToDown(driver);
+        swipeClass.swipeToDown(driver);
+        swipeClass.swipeToDown(driver);
         //首页下
-//        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/index_horizontal_list_image").click();
+        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/index_horizontal_list_image").click();
 //        swipeClass.swipeToDown(driver);
 //        swipeClass.swipeToDown(driver);
 //        swipeClass.swipeToDown(driver);
@@ -68,15 +78,18 @@ public class BaseTest2 {
 //        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/mp3_play").click();
         // WebElement w1=driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/page_layout");
         //登录注册
-        driver.findElementByAccessibilityId("转到上一层级").click();
+//        driver.findElementByAccessibilityId("转到上一层级").click();
 //        driver.findElementByClassName("http://www.jszg.edu.com/").click();
         //点击Friends
 //        driver.findElementByAccessibilityId("Friends").click();
 //        driver.findElementByAccessibilityId("转到上一层级").click();
-//        driver.findElementByClassName("android.widget.ImageButton").click();
+
+        //        driver.findElementByClassName("android.widget.ImageButton").click();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-//        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/icon_image").click();
+//        搜索
+//        driver.findElementByName("搜索").click();
         //注册因为有验证码
+
 //        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/btn_register").click();
 //        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/et_phone").sendKeys("15732176510");
 //        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/et_code").sendKeys("123456");
@@ -104,9 +117,41 @@ public class BaseTest2 {
 //        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/et_password").sendKeys("zhen0820");
 //        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/btn_login").click();
 
-        //新闻第一条可以换成长按
-//        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/tv_nickname").click();
 
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//新闻第一条可以换成长按
+//        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/tv_nickname").click();
 //        driver.findElementByAccessibilityId("新闻");
 //        driver.findElementByXPath("android.support.v7.app.ActionBar$Tab{新闻}").click();
 //        driver.findElementByXPath("//android.widget.TextView[contains(@index,0)]").click();
@@ -116,9 +161,3 @@ public class BaseTest2 {
 //        driver.findElementByName("新闻").click();
 //        driver.findElementByXPath("//android:id/tabhost/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.support.v7.app.ActionBar$Tab/android.widget.TextView").click();
 //        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/content").click();
-
-    }
-
-
-
-}
