@@ -38,6 +38,7 @@ public class BaseTest1 {
 
         driver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
 //        driver.findElementByLinkText("新闻");
     }
 }

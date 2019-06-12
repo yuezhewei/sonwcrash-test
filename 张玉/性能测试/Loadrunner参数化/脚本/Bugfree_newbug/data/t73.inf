@@ -1,0 +1,13 @@
+[t73]
+FileName1=t73_zTreeStyle.css
+URL1=http://192.168.109.1:8032/bugfree/assets/c4a5a759/zTreeStyle.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_73.xml
+RequestHeaderFile=t73_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t73_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

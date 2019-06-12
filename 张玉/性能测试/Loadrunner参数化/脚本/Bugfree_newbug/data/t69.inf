@@ -1,0 +1,13 @@
+[t69]
+FileName1=t69.htm
+URL1=http://192.168.109.1:8032/bugfree/index.php/info/edit?type=bug&action=opened&product_id=1
+Total=1
+RequestHeaderFile=t69_RequestHeader.txt
+RequestBodyFile=t69_RequestBody.txt
+ResponseHeaderFile=t69_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_69.xml
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

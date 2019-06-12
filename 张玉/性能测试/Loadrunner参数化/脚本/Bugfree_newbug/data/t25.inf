@@ -1,0 +1,13 @@
+[t25]
+FileName1=t25_jquery.tools.min.html
+URL1=http://192.168.109.1:8032/bugfree/themes/classic/assets/js/jquery.tools.min.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_25.xml
+RequestHeaderFile=t25_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t25_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

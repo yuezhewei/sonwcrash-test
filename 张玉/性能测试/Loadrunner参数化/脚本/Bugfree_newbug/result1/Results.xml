@@ -1,0 +1,729 @@
+﻿<?xml version="1.0"?>
+  <!DOCTYPE Report
+[
+<!ELEMENT Report (General ,(Doc|BPT)) >
+<!ATTLIST Report ver CDATA #REQUIRED tmZone CDATA #REQUIRED>
+
+<!ELEMENT General ( DocLocation ) >
+<!ATTLIST General productName CDATA #REQUIRED productVer CDATA #REQUIRED os CDATA #REQUIRED host CDATA #REQUIRED>
+
+<!ELEMENT BPT (DName,Res,DVer?,TSet?,TInst?,NodeArgs,Doc*) >
+<!ATTLIST BPT rID ID #REQUIRED >
+
+<!ELEMENT Doc (DName, Res, DVer?, TSet?, TInst?, RunType?, DT?, Step*, Action+, DIter*, Action*, Summary?, NodeArgs?)> 
+<!ATTLIST Doc rID ID #REQUIRED type (Test|BC) "Test" productName CDATA #REQUIRED BCIter CDATA #IMPLIED >
+
+<!ELEMENT RunType ( #PCDATA )>
+<!ATTLIST RunType fmStep (False|True) "False" batch (False|True) "False" upDesc (False|True) "False" upChk (False|True) "False" upAS (False|True) "False">
+
+<!ELEMENT DName ( #PCDATA ) >
+
+<!ELEMENT Res ( #PCDATA ) >
+
+<!ELEMENT DVer ( #PCDATA ) >
+
+<!ELEMENT TSet ( #PCDATA ) >
+
+<!ELEMENT TInst ( #PCDATA ) >
+
+<!ELEMENT DIter (Step?,Action+,Summary?,NodeArgs)>
+<!ATTLIST DIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT DocLocation ( #PCDATA )>
+
+<!ELEMENT Action (AName,AIter*,(Step|HtmlStep|Action)*,Summary,NodeArgs) >
+<!ATTLIST Action rID ID #REQUIRED>
+
+<!ELEMENT AIter ((Step|HtmlStep|Action)*,Summary?,NodeArgs) >
+<!ATTLIST AIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT AName ( #PCDATA ) >
+
+<!ELEMENT Step (Obj,Details,Time,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST Step rID ID #REQUIRED retval CDATA #IMPLIED>
+
+<!ELEMENT HtmlStep (HTML,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST HtmlStep rID ID #REQUIRED >
+
+<!ELEMENT Obj ( #PCDATA ) >
+<!ATTLIST Obj plainTxt (False|True) "True">
+
+<!ELEMENT Details ( #PCDATA ) >
+<!ATTLIST Details plainTxt (False|True) "True">
+
+<!ELEMENT Time ( #PCDATA ) >
+
+<!ELEMENT HTML ( #PCDATA ) >
+
+<!ELEMENT Disp ( #PCDATA ) >
+
+<!ELEMENT NodeArgs (Disp,TopPane?,BtmPane?)>
+<!ATTLIST NodeArgs eType CDATA #REQUIRED icon CDATA #REQUIRED nRep CDATA #REQUIRED filter (False|True) "True">
+<!ATTLIST NodeArgs status (Passed|Failed|Done|Warning|Information) "Done">
+<!ATTLIST NodeArgs iconSel CDATA #IMPLIED nType CDATA #IMPLIED >
+
+<!ELEMENT TopPane (Path)>
+
+<!ELEMENT BtmPane ( (Path|WR)?,ASHilite?)>
+<!ATTLIST BtmPane vType CDATA "HTML">
+
+<!ELEMENT Path ( #PCDATA ) >
+
+<!ELEMENT ASHilite ( #PCDATA ) >
+
+<!ELEMENT WR ( #PCDATA ) >
+
+<!ELEMENT DT (NodeArgs) >
+<!ATTLIST DT rID ID #REQUIRED>
+
+<!ELEMENT Summary (Param*)>
+<!ATTLIST Summary sTime CDATA #IMPLIED eTime CDATA #IMPLIED passed CDATA #IMPLIED failed CDATA #IMPLIED warnings CDATA #IMPLIED retval CDATA #IMPLIED stopped (False|True) "False" >
+
+<!ELEMENT Param (ParamName,ParamVal)+ >
+<!ATTLIST Param paramInOut (In|Out) "In">
+
+<!ELEMENT ParamName ( #PCDATA ) >
+
+<!ELEMENT ParamVal ( #PCDATA ) >
+
+]
+> <Report ver="2.0" tmZone="中国标准时间">
+<General productName="Vugen" productVer="11" os="" host="WIN-VQ82MAM3JTN"><DocLocation><![CDATA[C:\Users\Administrator\Desktop\loadrunner\Bugfree_newbug]]></DocLocation></General>
+<Doc rID="T1"   productName= "Vugen"  >
+<DName><![CDATA[Bugfree_newbug]]></DName>
+<Res><![CDATA[result1]]></Res>
+<Action rID="T2">
+<AName><![CDATA[vuser_init]]></AName>
+<Summary sTime="2019/6/3 - 14:18:41" eTime="2019/6/3 - 14:18:42" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="5" >
+<Disp><![CDATA[vuser_init Summary]]></Disp>
+</NodeArgs>
+</Action>
+<DIter rID="T3" iterID="1" >
+<Action rID="T4">
+<AName><![CDATA[Action]]></AName>
+<Step rID="T5">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>1_product=7c70d8babf6c2622289bddd2d2097c2d8906867cs%3A1%3A%221%22%3B; DOMAIN=192.168.109.1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:42]]></Time>
+<NodeArgs eType="General" icon="4" nRep="9" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T6">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>pageSize=2dd7b4b260f1513a73b85b51114fb53ef3d8d056s%3A2%3A%2220%22%3B; DOMAIN=192.168.109.1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:42]]></Time>
+<NodeArgs eType="General" icon="4" nRep="10" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T7">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>ac-cookie=%5B%7B%22data%22%3A%5B%22%5Cu7cfb%5Cu7edf%5Cu7ba1%5Cu7406%5Cu5458%22%2C%22%5Cu7cfb%5Cu7edf%5Cu7ba1%5Cu7406%5Cu5458%5Badmin%5D%22%5D%2C%22value%22%3A%22%5Cu7cfb%5Cu7edf%5Cu7ba1%5Cu7406%5Cu5458%22%2C%22result%22%3A%22%5Cu7cfb%5Cu7edf%5Cu7ba1%5Cu7406%5Cu5458%22%7D%5D; DOMAIN=192.168.109.1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:42]]></Time>
+<NodeArgs eType="General" icon="4" nRep="11" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T8">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>language=33142191c8a895b509ca2fb6f6cc597a3125f158s%3A5%3A%22zh_cn%22%3B; DOMAIN=192.168.109.1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:42]]></Time>
+<NodeArgs eType="General" icon="4" nRep="12" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA[Url: 1]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:42]]></Time>
+<NodeArgs eType="General" icon="5" nRep="13" status="Passed" >
+<Disp><![CDATA[Url: 1]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t1.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA[Service: Concurrent Group - start]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Concurrent Group started</CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:42]]></Time>
+<NodeArgs eType="General" icon="6" nRep="14" >
+<Disp><![CDATA[Service: Concurrent Group - start]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[Url: jquery.min.js]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: jquery.min.js registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:42]]></Time>
+<NodeArgs eType="General" icon="5" nRep="15" >
+<Disp><![CDATA[Url: jquery.min.js]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T12">
+<Obj plainTxt="False" ><![CDATA[Url: blue.css]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: blue.css registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:42]]></Time>
+<NodeArgs eType="General" icon="5" nRep="16" >
+<Disp><![CDATA[Url: blue.css]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T13">
+<Obj plainTxt="False" ><![CDATA[Url: bugfree3_basic.css]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: bugfree3_basic.css registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:42]]></Time>
+<NodeArgs eType="General" icon="5" nRep="17" >
+<Disp><![CDATA[Url: bugfree3_basic.css]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T14">
+<Obj plainTxt="False" ><![CDATA[Url: favicon_blue.ico]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: favicon_blue.ico registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:42]]></Time>
+<NodeArgs eType="General" icon="5" nRep="18" >
+<Disp><![CDATA[Url: favicon_blue.ico]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA[Service: Concurrent Group - end]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Concurrent Group ended</CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:42]]></Time>
+<NodeArgs eType="General" icon="7" nRep="19" >
+<Disp><![CDATA[Service: Concurrent Group - end]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T16">
+<Obj plainTxt="False" ><![CDATA[Service: Concurrent Group - start]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Concurrent Group started</CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:42]]></Time>
+<NodeArgs eType="General" icon="6" nRep="20" >
+<Disp><![CDATA[Service: Concurrent Group - start]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T17">
+<Obj plainTxt="False" ><![CDATA[Url: seperate_line.png]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: seperate_line.png registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:42]]></Time>
+<NodeArgs eType="General" icon="5" nRep="21" >
+<Disp><![CDATA[Url: seperate_line.png]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA[Url: logo_login.png]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: logo_login.png registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:42]]></Time>
+<NodeArgs eType="General" icon="5" nRep="22" >
+<Disp><![CDATA[Url: logo_login.png]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T19">
+<Obj plainTxt="False" ><![CDATA[Service: Concurrent Group - end]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Concurrent Group ended</CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:42]]></Time>
+<NodeArgs eType="General" icon="7" nRep="23" >
+<Disp><![CDATA[Service: Concurrent Group - end]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T20">
+<Obj plainTxt="False" ><![CDATA[Submit Data: login]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="8" nRep="24" status="Passed" >
+<Disp><![CDATA[Submit Data: login]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t2.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T21">
+<Obj plainTxt="False" ><![CDATA[Service: Concurrent Group - start]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Concurrent Group started</CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="6" nRep="25" >
+<Disp><![CDATA[Service: Concurrent Group - start]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T22">
+<Obj plainTxt="False" ><![CDATA[Url: form.css]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: form.css registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="26" >
+<Disp><![CDATA[Url: form.css]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T23">
+<Obj plainTxt="False" ><![CDATA[Url: style.css]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: style.css registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="27" >
+<Disp><![CDATA[Url: style.css]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T24">
+<Obj plainTxt="False" ><![CDATA[Url: overlib.js]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: overlib.js registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="28" >
+<Disp><![CDATA[Url: overlib.js]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T25">
+<Obj plainTxt="False" ><![CDATA[Url: main.js]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: main.js registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="29" >
+<Disp><![CDATA[Url: main.js]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T26">
+<Obj plainTxt="False" ><![CDATA[Url: jquery.autocomplete.css]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: jquery.autocomplete.css registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="30" >
+<Disp><![CDATA[Url: jquery.autocomplete.css]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T27">
+<Obj plainTxt="False" ><![CDATA[Url: zTreeStyle.css]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: zTreeStyle.css registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="31" >
+<Disp><![CDATA[Url: zTreeStyle.css]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T28">
+<Obj plainTxt="False" ><![CDATA[Url: thickbox.css]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: thickbox.css registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="32" >
+<Disp><![CDATA[Url: thickbox.css]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T29">
+<Obj plainTxt="False" ><![CDATA[Url: jquery-ui.css]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: jquery-ui.css registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="33" >
+<Disp><![CDATA[Url: jquery-ui.css]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T30">
+<Obj plainTxt="False" ><![CDATA[Url: jquery.bgiframe.js]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: jquery.bgiframe.js registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="34" >
+<Disp><![CDATA[Url: jquery.bgiframe.js]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T31">
+<Obj plainTxt="False" ><![CDATA[Url: jquery.ztree.js]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: jquery.ztree.js registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="35" >
+<Disp><![CDATA[Url: jquery.ztree.js]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T32">
+<Obj plainTxt="False" ><![CDATA[Url: jquery.ajaxQueue.js]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: jquery.ajaxQueue.js registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="36" >
+<Disp><![CDATA[Url: jquery.ajaxQueue.js]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T33">
+<Obj plainTxt="False" ><![CDATA[Url: jquery.cookie.js]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: jquery.cookie.js registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="37" >
+<Disp><![CDATA[Url: jquery.cookie.js]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T34">
+<Obj plainTxt="False" ><![CDATA[Url: json2.js]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: json2.js registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="38" >
+<Disp><![CDATA[Url: json2.js]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T35">
+<Obj plainTxt="False" ><![CDATA[Url: jquery.autocomplete.js]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: jquery.autocomplete.js registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="39" >
+<Disp><![CDATA[Url: jquery.autocomplete.js]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T36">
+<Obj plainTxt="False" ><![CDATA[Url: jquery.tools.min.js]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: jquery.tools.min.js registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="40" >
+<Disp><![CDATA[Url: jquery.tools.min.js]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T37">
+<Obj plainTxt="False" ><![CDATA[Url: jquery.form.js]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: jquery.form.js registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="41" >
+<Disp><![CDATA[Url: jquery.form.js]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T38">
+<Obj plainTxt="False" ><![CDATA[Url: logo.png]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: logo.png registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="42" >
+<Disp><![CDATA[Url: logo.png]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T39">
+<Obj plainTxt="False" ><![CDATA[Url: close_div.gif]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: close_div.gif registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="43" >
+<Disp><![CDATA[Url: close_div.gif]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T40">
+<Obj plainTxt="False" ><![CDATA[Url: add.gif]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: add.gif registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="44" >
+<Disp><![CDATA[Url: add.gif]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T41">
+<Obj plainTxt="False" ><![CDATA[Url: create_down.gif]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: create_down.gif registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="45" >
+<Disp><![CDATA[Url: create_down.gif]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T42">
+<Obj plainTxt="False" ><![CDATA[Url: add_search.gif]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: add_search.gif registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="46" >
+<Disp><![CDATA[Url: add_search.gif]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T43">
+<Obj plainTxt="False" ><![CDATA[Url: flag_1.gif]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: flag_1.gif registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="47" >
+<Disp><![CDATA[Url: flag_1.gif]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T44">
+<Obj plainTxt="False" ><![CDATA[Url: jquery-ui.min.js]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: jquery-ui.min.js registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="48" >
+<Disp><![CDATA[Url: jquery-ui.min.js]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T45">
+<Obj plainTxt="False" ><![CDATA[Url: late_left.gif]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: late_left.gif registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="49" >
+<Disp><![CDATA[Url: late_left.gif]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T46">
+<Obj plainTxt="False" ><![CDATA[Service: Concurrent Group - end]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Concurrent Group ended</CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="7" nRep="50" >
+<Disp><![CDATA[Service: Concurrent Group - end]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T47">
+<Obj plainTxt="False" ><![CDATA[Url: down.gif]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource loaded successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="51" status="Passed" >
+<Disp><![CDATA[Url: down.gif]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T48">
+<Obj plainTxt="False" ><![CDATA[Service: Concurrent Group - start]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Concurrent Group started</CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="6" nRep="52" >
+<Disp><![CDATA[Service: Concurrent Group - start]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T49">
+<Obj plainTxt="False" ><![CDATA[Url: active.png]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: active.png registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="53" >
+<Disp><![CDATA[Url: active.png]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T50">
+<Obj plainTxt="False" ><![CDATA[Url: close_div.gif_2]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: close_div.gif_2 registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="54" >
+<Disp><![CDATA[Url: close_div.gif_2]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T51">
+<Obj plainTxt="False" ><![CDATA[Url: ui-bg_flat_75_ffffff_40x100.png]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: ui-bg_flat_75_ffffff_40x100.png registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="55" >
+<Disp><![CDATA[Url: ui-bg_flat_75_ffffff_40x100.png]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T52">
+<Obj plainTxt="False" ><![CDATA[Url: ui-bg_highlight-soft_75_cccccc_1x100.png]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: ui-bg_highlight-soft_75_cccccc_1x100.png registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="56" >
+<Disp><![CDATA[Url: ui-bg_highlight-soft_75_cccccc_1x100.png]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T53">
+<Obj plainTxt="False" ><![CDATA[Url: ui-icons_222222_256x240.png]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: ui-icons_222222_256x240.png registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="57" >
+<Disp><![CDATA[Url: ui-icons_222222_256x240.png]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T54">
+<Obj plainTxt="False" ><![CDATA[Service: Concurrent Group - end]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Concurrent Group ended</CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="7" nRep="58" >
+<Disp><![CDATA[Service: Concurrent Group - end]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T55">
+<Obj plainTxt="False" ><![CDATA[Submit Data: getProductModule]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="8" nRep="59" status="Passed" >
+<Disp><![CDATA[Submit Data: getProductModule]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t3.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T56">
+<Obj plainTxt="False" ><![CDATA[Url: page.gif]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource loaded successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:43]]></Time>
+<NodeArgs eType="General" icon="5" nRep="60" status="Passed" >
+<Disp><![CDATA[Url: page.gif]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T57">
+<Obj plainTxt="False" ><![CDATA[Url: edit]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:44]]></Time>
+<NodeArgs eType="General" icon="5" nRep="61" status="Passed" >
+<Disp><![CDATA[Url: edit]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t4.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T58">
+<Obj plainTxt="False" ><![CDATA[Service: Concurrent Group - start]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Concurrent Group started</CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:44]]></Time>
+<NodeArgs eType="General" icon="6" nRep="62" >
+<Disp><![CDATA[Service: Concurrent Group - start]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T59">
+<Obj plainTxt="False" ><![CDATA[Url: jquery.multifile.js]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: jquery.multifile.js registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:44]]></Time>
+<NodeArgs eType="General" icon="5" nRep="63" >
+<Disp><![CDATA[Url: jquery.multifile.js]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T60">
+<Obj plainTxt="False" ><![CDATA[Url: kindeditor-min.js]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: kindeditor-min.js registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:44]]></Time>
+<NodeArgs eType="General" icon="5" nRep="64" >
+<Disp><![CDATA[Url: kindeditor-min.js]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T61">
+<Obj plainTxt="False" ><![CDATA[Url: zh_CN.js]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: zh_CN.js registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:44]]></Time>
+<NodeArgs eType="General" icon="5" nRep="65" >
+<Disp><![CDATA[Url: zh_CN.js]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T62">
+<Obj plainTxt="False" ><![CDATA[Url: preview.js]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: preview.js registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:44]]></Time>
+<NodeArgs eType="General" icon="5" nRep="66" >
+<Disp><![CDATA[Url: preview.js]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T63">
+<Obj plainTxt="False" ><![CDATA[Service: Concurrent Group - end]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Concurrent Group ended</CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:44]]></Time>
+<NodeArgs eType="General" icon="7" nRep="67" >
+<Disp><![CDATA[Service: Concurrent Group - end]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T64">
+<Obj plainTxt="False" ><![CDATA[Service: Concurrent Group - start]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Concurrent Group started</CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:44]]></Time>
+<NodeArgs eType="General" icon="6" nRep="68" >
+<Disp><![CDATA[Service: Concurrent Group - start]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T65">
+<Obj plainTxt="False" ><![CDATA[Url: default.css]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: default.css registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:44]]></Time>
+<NodeArgs eType="General" icon="5" nRep="69" >
+<Disp><![CDATA[Url: default.css]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T66">
+<Obj plainTxt="False" ><![CDATA[Url: default.png]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: default.png registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:44]]></Time>
+<NodeArgs eType="General" icon="5" nRep="70" >
+<Disp><![CDATA[Url: default.png]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T67">
+<Obj plainTxt="False" ><![CDATA[Url: indicator.gif]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Url: indicator.gif registered successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:44]]></Time>
+<NodeArgs eType="General" icon="5" nRep="71" >
+<Disp><![CDATA[Url: indicator.gif]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T68">
+<Obj plainTxt="False" ><![CDATA[Service: Concurrent Group - end]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Concurrent Group ended</CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:44]]></Time>
+<NodeArgs eType="General" icon="7" nRep="72" >
+<Disp><![CDATA[Service: Concurrent Group - end]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T69">
+<Obj plainTxt="False" ><![CDATA[Submit Data: edit_2]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:47]]></Time>
+<NodeArgs eType="General" icon="8" nRep="73" status="Passed" >
+<Disp><![CDATA[Submit Data: edit_2]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t5.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T70">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Case</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:47]]></Time>
+<NodeArgs eType="General" icon="9" nRep="74" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T71">
+<Obj plainTxt="False" ><![CDATA[Url: 1143]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:48]]></Time>
+<NodeArgs eType="General" icon="5" nRep="75" status="Passed" >
+<Disp><![CDATA[Url: 1143]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t6.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T72">
+<Obj plainTxt="False" ><![CDATA[Url: BugFree]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:48]]></Time>
+<NodeArgs eType="General" icon="5" nRep="76" status="Passed" >
+<Disp><![CDATA[Url: BugFree]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t7.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T73">
+<Obj plainTxt="False" ><![CDATA[Url: getPreNextId]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:48]]></Time>
+<NodeArgs eType="General" icon="5" nRep="77" status="Passed" >
+<Disp><![CDATA[Url: getPreNextId]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t8.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T74">
+<Obj plainTxt="False" ><![CDATA[Service: Concurrent Group - start]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Concurrent Group started</CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:48]]></Time>
+<NodeArgs eType="General" icon="6" nRep="78" >
+<Disp><![CDATA[Service: Concurrent Group - start]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T75">
+<Obj plainTxt="False" ><![CDATA[Service: Concurrent Group - end]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Concurrent Group ended</CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:48]]></Time>
+<NodeArgs eType="General" icon="7" nRep="79" >
+<Disp><![CDATA[Service: Concurrent Group - end]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T76">
+<Obj plainTxt="False" ><![CDATA[Submit Data: getProductModule_2]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/6/3 - 14:18:48]]></Time>
+<NodeArgs eType="General" icon="8" nRep="80" status="Passed" >
+<Disp><![CDATA[Submit Data: getProductModule_2]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t9.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="2019/6/3 - 14:18:42" eTime="2019/6/3 - 14:18:48" passed="11" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
+<Disp><![CDATA[Action Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Passed" >
+<Disp><![CDATA[Bugfree_newbug Iteration 1 (Row 1)]]></Disp>
+</NodeArgs>
+</DIter>
+<Action rID="T77">
+<AName><![CDATA[vuser_end]]></AName>
+<Summary sTime="2019/6/3 - 14:18:48" eTime="2019/6/3 - 14:18:48" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="83" >
+<Disp><![CDATA[vuser_end Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Summary sTime="2019/6/3 - 14:18:41" eTime="2019/6/3 - 14:18:48" passed="11" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
+<Disp><![CDATA[Test Bugfree_newbug Summary]]></Disp>
+</NodeArgs>
+</Doc>
+</Report>

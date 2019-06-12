@@ -1,0 +1,27 @@
+Debug Message:
+	Correlation engine instance created; using configuration Default
+
+Debug Message:
+	Correlation is disabled
+
+Debug Message:
+	TaskID=6  URL=http://192.168.239.1:8032/bugfree3.0.3/index.php/site/login
+
+Debug Message:
+	TaskID=31  URL=http://192.168.239.1:8032/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	TaskID=99  URL=http://192.168.239.1:8032/bugfree3.0.3/index.php/case/list/1
+
+Debug Message:
+	TaskID=110  URL=http://192.168.239.1:8032/bugfree3.0.3/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	TaskID=169  URL=http://192.168.239.1:8032/bugfree3.0.3/index.php/case/list/1
+
+Debug Message:
+	TaskID=175  URL=http://192.168.239.1:8032/bugfree3.0.3/index.php/case/7
+
+Debug Message:
+	TaskID=207  URL=http://192.168.239.1:8032/bugfree3.0.3/index.php/case/7
+

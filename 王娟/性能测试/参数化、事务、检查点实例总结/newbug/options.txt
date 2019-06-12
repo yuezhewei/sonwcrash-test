@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\LR\scripts\newbug
+-IC:\LR\include
+-ec:\lr\scripts\newbug\\logfile.log
+c:\lr\scripts\newbug\\combined_newbug.c
+c:\lr\scripts\newbug\\pre_cci.c

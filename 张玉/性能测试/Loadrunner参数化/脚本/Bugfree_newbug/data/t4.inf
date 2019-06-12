@@ -1,0 +1,13 @@
+[t4]
+FileName1=t4_blue.css
+URL1=http://192.168.109.1:8032/bugfree/themes/classic/assets/css/blue.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_4.xml
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

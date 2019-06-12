@@ -1,0 +1,25 @@
+[t2]
+FileName2=t2_5_logo_login.png
+FileName5=t2_2_favicon_blue.ico
+FileName4=t2_3_jquery.UNK
+FileName7=t2_0_blue.css
+FileName6=t2_1_bugfree3_basic.css
+RequestBodyFile=t2_RequestBody.txt
+ContentType=text/html
+URL1=http://192.168.109.1:8032/bugfree/index.php/bug/list/1
+URL2=http://192.168.109.1:8032/bugfree/themes/classic/assets/images/blue/logo_login.png
+URL3=http://192.168.109.1:8032/bugfree/themes/classic/assets/images/blue/seperate_line.png
+ResponseHeaderFile=t2_ResponseHeader.txt
+URL4=http://192.168.109.1:8032/bugfree/assets/65cb0d52/jquery.min.js
+URL5=http://192.168.109.1:8032/bugfree/favicon_blue.ico
+URL6=http://192.168.109.1:8032/bugfree/themes/classic/assets/css/bugfree3_basic.css
+URL7=http://192.168.109.1:8032/bugfree/themes/classic/assets/css/blue.css
+SnapshotXmlFile=snapshot_8.xml
+RequestHeaderFile=t2_RequestHeader.txt
+SaveSnapshotResources=1
+Total=7
+StepName=Submit Data: login
+FileName1=t2.html
+FileName3=t2_4_seperate_line.png
+[AdditionalInfo]
+IsIgnorable=0

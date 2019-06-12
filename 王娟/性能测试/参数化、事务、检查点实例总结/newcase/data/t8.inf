@@ -1,0 +1,17 @@
+[t8]
+FileName1=t8.htm
+URL1=http://192.168.239.1:8032/bugfree3.0.3/index.php/case/list/1
+Total=3
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_8.xml
+FileName2=t8_zTreeStyle.css
+URL2=http://192.168.239.1:8032/bugfree3.0.3/assets/811484cb/zTreeStyle.css
+FileName3=t8_jquery.ztree.html
+URL3=http://192.168.239.1:8032/bugfree3.0.3/assets/811484cb/jquery.ztree.js
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=0

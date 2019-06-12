@@ -1,5 +1,7 @@
 package testcase;
 
+import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
@@ -18,6 +20,7 @@ public class Test1 {
         return driver;
     }
 
+	//提前把夜神模拟器切换到竖屏，才能执行
     @Test
     public void StartApp() throws IOException, InterruptedException {
         File classpathRoot = new File(System.getProperty("user.dir"));
@@ -45,21 +48,46 @@ public class Test1 {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElementById("startButton").click();
 
-        //上滑操作
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
+        //等待app响应
+        try{
+            Thread.sleep(5000);
+        }catch(InterruptedException e){
+            e.printStackTrace();
+        }
 
-        //点击怪默之王（失败）
-        driver.findElementByClassName("android.widget.ImageView").click();
+        //连续上滑操作
+        swipeClass.swipeToUp(driver);
+        swipeClass.swipeToUp(driver);
+        swipeClass.swipeToUp(driver);
+        //连续下滑操作
+        swipeClass.swipeToDown(driver);
+        swipeClass.swipeToDown(driver);
+        swipeClass.swipeToDown(driver);
+        //左滑
+        swipeClass.swipeToLeft(driver);
+        swipeClass.swipeToLeft(driver);
+        swipeClass.swipeToLeft(driver);
+        //右滑
+        swipeClass.swipeToRight(driver);
+        swipeClass.swipeToRight(driver);
+        swipeClass.swipeToRight(driver);
+
+        //点击滚动新闻（成功）
+        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/index_horizontal_list_image").click();
         //等待
         Thread.sleep(3000);
-        //针对怪默之王进行左滑、右滑操作
+        //上滑找到点赞（不一定成功，因为app实时更新，不一定打开同一条新闻）
+        swipeClass.swipeToUp(driver);
+        swipeClass.swipeToUp(driver);
+        swipeClass.swipeToUp(driver);
+        //点赞（不一定成功，同上）
+        driver.findElement(By.className("android.view.View")).click();
+
+        //点击主持人四十二（失败）
+        //一整个网页视图导致无法定位
+
+        //断言
+        //Assert.assertEquals(".MainActivity",getDriver().currentActivity());
 
     }
 }

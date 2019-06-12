@@ -1,0 +1,13 @@
+[t6]
+FileName1=t6_seperate_line.png
+URL1=http://192.168.109.1:8032/bugfree/themes/classic/assets/images/blue/seperate_line.png
+Total=1
+ContentType=image/png
+SnapshotXmlFile=snapshot_6.xml
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t6_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

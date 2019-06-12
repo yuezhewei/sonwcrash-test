@@ -1,0 +1,13 @@
+[t61]
+FileName1=t61_preview.html
+URL1=http://192.168.109.1:8032/bugfree/assets/a2a4058f/plugins/preview/preview.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_61.xml
+RequestHeaderFile=t61_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t61_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

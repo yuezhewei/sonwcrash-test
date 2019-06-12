@@ -1,0 +1,15 @@
+[t10]
+FileName1=t10.htm
+URL1=http://192.168.109.1:8032/bugfree/index.php/search/getPreNextId?id=5&type=case&product_id=1
+Total=2
+RequestHeaderFile=t10_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t10_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_10.xml
+FileName2=t10_ajaxfileupload.html
+URL2=http://192.168.109.1:8032/bugfree/themes/classic/assets/js/ajaxfileupload.js
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

@@ -1,0 +1,13 @@
+[t65]
+FileName1=t65_jquery-ui.min.html
+URL1=http://192.168.109.1:8032/bugfree/assets/65cb0d52/jui/js/jquery-ui.min.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_65.xml
+RequestHeaderFile=t65_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t65_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

@@ -8,6 +8,7 @@ dependencies {
     implementation files('libs/selenium-server-standalone-3.141.59.jar')
     implementation 'org.testng:testng:6.9.6'
     implementation 'com.google.guava:guava:27.1-jre'
+    implementation files('libs/testng-6.15.0-20180209.034852-1.jar')
 }
 //解决中文乱码的问题
 tasks.withType(JavaCompile) {

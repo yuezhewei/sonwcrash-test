@@ -1,0 +1,13 @@
+[t57]
+FileName1=t57_json2.html
+URL1=http://192.168.109.1:8032/bugfree/assets/f94ed65d/json2.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_57.xml
+RequestHeaderFile=t57_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t57_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

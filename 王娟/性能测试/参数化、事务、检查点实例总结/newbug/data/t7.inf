@@ -1,0 +1,15 @@
+[t7]
+FileName1=t7.htm
+URL1=http://192.168.239.1:8032/bugfree3.0.3/index.php/bug/1147
+Total=2
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_7.xml
+FileName2=t7_zTreeStyle.css
+URL2=http://192.168.239.1:8032/bugfree3.0.3/assets/811484cb/zTreeStyle.css
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=0
