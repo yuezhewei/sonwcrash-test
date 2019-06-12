@@ -13,12 +13,14 @@ import java.util.concurrent.TimeUnit;
 
 import io.appium.java_client.android.AndroidDriver;
 import swipe.*;
-public class Test1 {
+public class Test2 {
     public AndroidDriver<WebElement> driver;
 
     public AndroidDriver getDriver() {
         return driver;
     }
+
+    //首页连续上滑操作+打开一条新闻进行点赞操作【需要手动转换成竖屏才能执行】
 
     @Test
     public void StartApp() throws IOException, InterruptedException {
@@ -47,46 +49,24 @@ public class Test1 {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElementById("startButton").click();
 
-        //等待app响应
-        try{
-            Thread.sleep(5000);
-        }catch(InterruptedException e){
-            e.printStackTrace();
-        }
+        //app反应比较慢，需要进行等待操作
+        Thread.sleep(5000);
 
-        //连续上滑操作
+        //连续上滑操作（成功）
         swipeClass.swipeToUp(driver);
         swipeClass.swipeToUp(driver);
         swipeClass.swipeToUp(driver);
-        //连续下滑操作
-        swipeClass.swipeToDown(driver);
-        swipeClass.swipeToDown(driver);
-        swipeClass.swipeToDown(driver);
-        //左滑
-        swipeClass.swipeToLeft(driver);
-        swipeClass.swipeToLeft(driver);
-        swipeClass.swipeToLeft(driver);
-        //右滑
-        swipeClass.swipeToRight(driver);
-        swipeClass.swipeToRight(driver);
-        swipeClass.swipeToRight(driver);
+        swipeClass.swipeToUp(driver);
 
-        //点击滚动新闻（成功）
-        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/index_horizontal_list_image").click();
-        //等待
-        Thread.sleep(3000);
-        //上滑找到点赞（不一定成功，因为app实时更新，不一定打开同一条新闻）
+        //点进一条新闻（成功）
+        driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/tv_title").click();
+        //app反应比较慢，需要进行等待操作
+        Thread.sleep(5000);
+        //上滑（成功）
         swipeClass.swipeToUp(driver);
         swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        //点赞（不一定成功，同上）
+        //查看图片（成功）
         driver.findElement(By.className("android.view.View")).click();
-
-        //点击主持人四十二（失败）
-        //一整个网页视图导致无法定位
-
-        //断言
-        //Assert.assertEquals(".MainActivity",getDriver().currentActivity());
 
     }
 }
