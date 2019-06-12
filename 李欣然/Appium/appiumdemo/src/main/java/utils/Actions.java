@@ -1,7 +1,15 @@
 package utils;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;
+import org.openqa.selenium.Rectangle;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidBatteryInfo;
@@ -73,4 +81,14 @@ public class Actions {
                 .moveTo(point(toPoint.x, toPoint.y))
                .perform();
     }
+    //class和index定位元素
+    public void getElementsByClassAndIndexAndClickable(String classname, int index){
+       // driver.findElementsByAndroidUIAutomator("new UiSelector().className("+classname+").index("+index+").clickable(true)");
+      WebElement sle = (WebElement) driver.findElementsByAndroidUIAutomator("new UiSelector().className("+classname+").index("+index+").clickable(true)");
+           sle.click();
+    }
+    public WebElement getElementByIndex(int index){
+        return driver.findElementByAndroidUIAutomator("new UiSelector().index("+index+")");
+    }
+
 }
