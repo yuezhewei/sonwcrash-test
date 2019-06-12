@@ -2,7 +2,6 @@ package testcase;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import java.io.File;
@@ -11,8 +10,9 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import io.appium.java_client.android.AndroidDriver;
-import swipe.*;
-public class Test1 {
+import swipe.SwipeClass;
+
+public class Test2 {
     public AndroidDriver<WebElement> driver;
 
     public AndroidDriver getDriver() {
@@ -39,7 +39,7 @@ public class Test1 {
 
         driver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        SwipeClass swipeClass=new SwipeClass();
+        SwipeClass swipeClass = new SwipeClass();
         swipeClass.swipeToLeft(driver);
         swipeClass.swipeToLeft(driver);
         swipeClass.swipeToLeft(driver);
@@ -47,23 +47,15 @@ public class Test1 {
         swipeClass.swipeToLeft(driver);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElementById("startButton").click();
-        //driver.findElementByLinkText("文章");
-        driver.findElementByAccessibilityId("文章").click();
-        //下面是点入一个文章然后下拉
-       /* driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/title").click();
-        Thread.sleep(3000);*/
-       /* swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);
-        swipeClass.swipeToUp(driver);*/
+        Thread.sleep(3000);
+        //driver.findElementById("cn.edu.hebtu.software.snowcarsh2:id/image").click();
+        //点击搜索
+        driver.findElementByXPath("//*[@text='搜索']").click();
+        Thread.sleep(3000);
+        //点击热门搜索中的主流孩子
+        driver.findElementByXPath("//*[@text='主流孩子']").click();
+        //点击该条新闻
+        driver.findElementByXPath("//*[@text='[新闻] 我想做一个KGS、蛙党、主流孩子的三国志']").click();
+
     }
 }
