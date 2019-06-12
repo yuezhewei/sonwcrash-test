@@ -1,0 +1,33 @@
+Debug Message:
+	Correlation engine instance created; using configuration Default
+
+Debug Message:
+	Correlation is disabled
+
+Debug Message:
+	TaskID=7  URL=http://192.168.239.1:8032/bugfree3.0.3/index.php/site/login
+
+Debug Message:
+	TaskID=31  URL=http://192.168.239.1:8032/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	TaskID=97  URL=http://192.168.239.1:8032/bugfree3.0.3/index.php/info/edit?type=bug&action=opened&product_id=1
+
+Debug Message:
+	TaskID=178  URL=https://outlook.live.com/owa/
+
+Debug Message:
+	TaskID=180  URL=http://192.168.239.1:8032/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	TaskID=186  URL=http://192.168.239.1:8032/bugfree3.0.3/index.php/bug/1147
+
+Debug Message:
+	TaskID=216  URL=http://192.168.239.1:8032/bugfree3.0.3/index.php/bug/1147
+
+Debug Message:
+	TaskID=238  URL=https://outlook.live.com/owa/
+
+Debug Message:
+	TaskID=252  URL=https://outlook.live.com/owa/
+

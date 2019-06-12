@@ -1,0 +1,525 @@
+[Network Analyzer (1208:10c0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1208:10c0)] Load Network Traffic Analyzers:
+[Network Analyzer (1208:10c0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1208:10c0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (1208:10c0)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1208:10c0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (1208:10c0)]     Analyzer Module: QTWeb (value=)
+[Network Analyzer (1208:10c0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1208:10c0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1208: 580)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208:1214)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208:1214)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (1208:1350)] Address lookup for muziwin7-PC = 192.168.229.128
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/index.php"   
+[Network Analyzer (1208: 580)]   (Sid:  1) Client -> Server : 828 bytes (Service=HTTP)
+[Network Analyzer (1208:1350)] Request Connection: Remote Server @ 204.79.197.212:80   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      (1208: 580)] "GET /favicon.ico"   
+[Network Analyzer (1208: 580)]   (Sid:  2) Client -> Server : 290 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  1) Server -> Client : 490 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/index.php/site/login"   
+[Network Analyzer (1208: 580)]   (Sid:  1) Client -> Server : 877 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  1) Server -> Client : 1694 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jquery.min.js"   
+[Network Analyzer (1208: 580)]   (Sid:  1) Client -> Server : 956 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1208:1350)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: 580)]   (Sid:  1) Server -> Client : 15917 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (1208:1350)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (1208:1350)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: 580)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (1208:1350)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jquery.min.js"   
+[Network Analyzer (1208: 580)]   (Sid:  4) Client -> Server : 956 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  4) Server -> Client : 14600 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  4) Server -> Client : 1318 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/css/blue.css"   
+[Network Analyzer (1208: 580)]   (Sid:  4) Client -> Server : 961 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  4) Server -> Client : 723 bytes  (Service=HTTP)
+[Network Analyzer (1208:10ac)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208:10ac)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/css/bugfree3_basic.css"   
+[Network Analyzer (1208: 580)]   (Sid:  5) Client -> Server : 971 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  5) Server -> Client : 2823 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/blue/seperate_line.png"   
+[Network Analyzer (1208: 580)]   (Sid:  4) Client -> Server : 978 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/blue/logo_login.png"   
+[Network Analyzer (1208: 580)]   (Sid:  5) Client -> Server : 975 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  4) Server -> Client : 431 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  5) Server -> Client : 2335 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/favicon_blue.ico"   
+[Network Analyzer (1208: 580)]   (Sid:  4) Client -> Server : 849 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  4) Server -> Client : 5983 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  2) Server -> Client : 261 bytes  (Service=HTTP)
+[Network Analyzer (1208:10ac)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208:10ac)] Request Connection: Remote Server @ 52.98.85.194:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (1208: 580)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (1208: 580)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (1208:1350)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208:1350)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (1208: 580)] "POST /bugfree3.0.3/index.php/site/login"   
+[Network Analyzer (1208: 580)]   (Sid:  7) Client -> Server : 1272 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  7) Server -> Client : 716 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/index.php"   
+[Network Analyzer (1208: 580)]   (Sid:  7) Client -> Server : 1072 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  7) Server -> Client : 431 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/index.php/bug/list/1"   
+[Network Analyzer (1208: 580)]   (Sid:  7) Client -> Server : 1083 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  7) Server -> Client : 12304 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/css/form.css"   
+[Network Analyzer (1208: 580)]   (Sid:  7) Client -> Server : 961 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid:  7) Server -> Client : 1041 bytes  (Service=HTTP)
+[Network Analyzer (1208:12d8)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208:1350)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208:10ac)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: 63c)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208:12d8)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (1208: 580)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (1208: 580)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (1208:1350)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (1208:10ac)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (1208: 63c)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (1208:12d8)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208:11c8)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208:1350)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: 580)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (1208: 580)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (1208: 580)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (1208:12d8)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/css/style.css"   
+[Network Analyzer (1208: 580)]   (Sid: 12) Client -> Server : 962 bytes (Service=HTTP)
+[Network Analyzer (1208:11c8)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/css/form.css"   
+[Network Analyzer (1208: 580)]   (Sid: 13) Client -> Server : 961 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 12) Server -> Client : 1093 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 13) Server -> Client : 1042 bytes  (Service=HTTP)
+[Network Analyzer (1208:1350)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/js/overlib.js"   
+[Network Analyzer (1208: 580)]   (Sid: 14) Client -> Server : 962 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 14) Server -> Client : 15030 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (1208: 580)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (1208:12d8)] Address lookup for muziwin7-PC = 192.168.229.128
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/js/main.js"   
+[Network Analyzer (1208: 580)]   (Sid: 14) Client -> Server : 959 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 14) Server -> Client : 1137 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/811484cb/zTreeStyle.css"   
+[Network Analyzer (1208: 580)]   (Sid: 14) Client -> Server : 957 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 14) Server -> Client : 1601 bytes  (Service=HTTP)
+[Network Analyzer (1208:12d8)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (1208:1068)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208:1350)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208:1068)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (1208:11c8)] Address lookup for muziwin7-PC = 192.168.229.128
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jui/css/base/jquery-ui.css"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 969 bytes (Service=HTTP)
+[Network Analyzer (1208:12ec)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:DES-CBC3-SHA)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 5000 bytes  (Service=HTTP)
+[Network Analyzer (1208:1350)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/814c4f7b/jquery.autocomplete.css"   
+[Network Analyzer (1208: 580)]   (Sid: 17) Client -> Server : 966 bytes (Service=HTTP)
+[Network Analyzer (1208:12ec)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1, ciphers:RC4-SHA)
+[Network Analyzer (1208:11c8)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 778 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/814c4f7b/thickbox.css"   
+[Network Analyzer (1208: 580)]   (Sid: 18) Client -> Server : 955 bytes (Service=HTTP)
+[Net An. Error    (1208:1184)]   (Sid: 15) SSL handshake with remote server Failed!
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 1384 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jquery.bgiframe.js"   
+[Network Analyzer (1208: 580)]   (Sid: 14) Client -> Server : 961 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 14) Server -> Client : 1125 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/811484cb/jquery.ztree.js"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 958 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 1782 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/814c4f7b/jquery.ajaxQueue.js"   
+[Network Analyzer (1208: 580)]   (Sid: 17) Client -> Server : 962 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 1344 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/814c4f7b/jquery.cookie.js"   
+[Network Analyzer (1208: 580)]   (Sid: 18) Client -> Server : 959 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 1053 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/814c4f7b/json2.js"   
+[Network Analyzer (1208: 580)]   (Sid: 14) Client -> Server : 951 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 14) Server -> Client : 5764 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/814c4f7b/jquery.autocomplete.js"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 965 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 7788 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/js/jquery.tools.min.js"   
+[Network Analyzer (1208: 580)]   (Sid: 17) Client -> Server : 971 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 4900 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/js/jquery.form.js"   
+[Network Analyzer (1208: 580)]   (Sid: 18) Client -> Server : 966 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 9467 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/blue/logo.png"   
+[Network Analyzer (1208: 580)]   (Sid: 14) Client -> Server : 969 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 14) Server -> Client : 1705 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/add.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 963 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/create_down.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 17) Client -> Server : 971 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/close_div.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 18) Client -> Server : 969 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 368 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 397 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 376 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/add_search.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 14) Client -> Server : 970 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 14) Server -> Client : 368 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/flag_1.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 966 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jui/js/jquery-ui.min.js"   
+[Network Analyzer (1208: 580)]   (Sid: 17) Client -> Server : 966 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 448 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 2784 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/down.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 18) Client -> Server : 964 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/active.png"   
+[Network Analyzer (1208: 580)]   (Sid: 14) Client -> Server : 966 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 345 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 14) Server -> Client : 507 bytes  (Service=HTTP)
+[Network Analyzer (1208:1350)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208:1350)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images//close_div.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 970 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/late_left.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 19) Client -> Server : 969 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 19) Server -> Client : 843 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Client -> Server : 1109 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png"   
+[Network Analyzer (1208: 580)]   (Sid: 18) Client -> Server : 994 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 365 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "POST /bugfree3.0.3/index.php/search/getProductModule"   
+[Network Analyzer (1208: 580)]   (Sid: 17) Client -> Server : 31 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png"   
+[Network Analyzer (1208: 580)]   (Sid: 14) Client -> Server : 1003 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jui/css/base/images/ui-icons_222222_256x240.png"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 990 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 14) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 4093 bytes  (Service=HTTP)
+[Network Analyzer (1208:1350)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 502 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/811484cb/img/page.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 19) Client -> Server : 955 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 19) Server -> Client : 866 bytes  (Service=HTTP)
+[Network Analyzer (1208:1350)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid= 20)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/index.php/case/list/1"   
+[Net An. Error    (1208:1104)]   (Sid: 20) SSL handshake with remote server Failed!
+[Network Analyzer (1208: 580)]   (Sid: 18) Client -> Server : 1059 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 11941 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/css/green.css"   
+[Network Analyzer (1208: 580)]   (Sid: 14) Client -> Server : 963 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 14) Connection Terminated (by Client)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/css/green.css"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 963 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/green/logo.png"   
+[Network Analyzer (1208: 580)]   (Sid: 17) Client -> Server : 971 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 739 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 1746 bytes  (Service=HTTP)
+[Network Analyzer (1208:11c8)] Address lookup for muziwin7-PC = 192.168.229.128
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/cancel_search.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 19) Client -> Server : 974 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 19) Server -> Client : 360 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/js/ajaxfileupload.js"   
+[Network Analyzer (1208: 580)]   (Sid: 18) Client -> Server : 970 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 2408 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/loading.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 968 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 714 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/favicon_green.ico"   
+[Network Analyzer (1208: 580)]   (Sid: 17) Client -> Server : 850 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 5983 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 19) Client -> Server : 1110 bytes (Service=HTTP)
+[Network Analyzer (1208:11c8)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (1208: 580)] "POST /bugfree3.0.3/index.php/search/getProductModule"   
+[Network Analyzer (1208: 580)]   (Sid: 19) Client -> Server : 31 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 19) Server -> Client : 502 bytes  (Service=HTTP)
+[Net An. Error    (1208: 538)]   (Sid: 21) SSL handshake with remote server Failed!
+[Web Request      (1208: 580)] "GET /favicon.ico"   
+[Network Analyzer (1208: 580)]   (Sid:  2) Client -> Server : 290 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/index.php/info/edit?type=case&action=opened&product_id=1"   
+[Network Analyzer (1208: 580)]   (Sid: 18) Client -> Server : 984 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 5680 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/css/form.css"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 1088 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/css/style.css"   
+[Network Analyzer (1208: 580)]   (Sid: 17) Client -> Server : 1089 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/js/overlib.js"   
+[Network Analyzer (1208: 580)]   (Sid: 18) Client -> Server : 1090 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/css/bugfree3_basic.css"   
+[Network Analyzer (1208: 580)]   (Sid: 19) Client -> Server : 1099 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 1041 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 1092 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 15029 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 19) Server -> Client : 2822 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/js/main.js"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 1086 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 1137 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/814c4f7b/thickbox.css"   
+[Network Analyzer (1208: 580)]   (Sid: 17) Client -> Server : 1082 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jquery.min.js"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 1085 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/814c4f7b/jquery.autocomplete.css"   
+[Network Analyzer (1208: 580)]   (Sid: 18) Client -> Server : 1093 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jui/css/base/jquery-ui.css"   
+[Network Analyzer (1208: 580)]   (Sid: 19) Client -> Server : 1097 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 1383 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 777 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 19) Server -> Client : 4999 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 15917 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jquery.multifile.js"   
+[Network Analyzer (1208: 580)]   (Sid: 17) Client -> Server : 998 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 6537 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jquery.bgiframe.js"   
+[Network Analyzer (1208: 580)]   (Sid: 18) Client -> Server : 1088 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 1125 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/814c4f7b/jquery.ajaxQueue.js"   
+[Network Analyzer (1208: 580)]   (Sid: 19) Client -> Server : 1089 bytes (Service=HTTP)
+[Network Analyzer (1208: e40)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: 580)]   (Sid: 19) Server -> Client : 1344 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/814c4f7b/jquery.cookie.js"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 1086 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 1053 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/814c4f7b/json2.js"   
+[Network Analyzer (1208: 580)]   (Sid: 17) Client -> Server : 1079 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 5764 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/814c4f7b/jquery.autocomplete.js"   
+[Network Analyzer (1208: 580)]   (Sid: 18) Client -> Server : 1093 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 7788 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a7f481c7/kindeditor-min.js"   
+[Network Analyzer (1208: 580)]   (Sid: 19) Client -> Server : 996 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 19) Server -> Client : 12223 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a7f481c7/lang/zh_CN.js"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 992 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 3090 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a7f481c7/plugins/preview/preview.js"   
+[Network Analyzer (1208: 580)]   (Sid: 17) Client -> Server : 1005 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 907 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/js/jquery.tools.min.js"   
+[Network Analyzer (1208: 580)]   (Sid: 18) Client -> Server : 1099 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 4900 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/js/jquery.form.js"   
+[Network Analyzer (1208: 580)]   (Sid: 19) Client -> Server : 1094 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 19) Server -> Client : 9467 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/css/green.css"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 1089 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 739 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/green/logo.png"   
+[Network Analyzer (1208: 580)]   (Sid: 17) Client -> Server : 1092 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jui/js/jquery-ui.min.js"   
+[Network Analyzer (1208: 580)]   (Sid: 18) Client -> Server : 1095 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 188 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 2784 bytes  (Service=HTTP)
+[Network Analyzer (1208:1068)] Address lookup for muziwin7-PC = 192.168.229.128
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jui/js/jquery-ui-i18n.min.js"   
+[Network Analyzer (1208: 580)]   (Sid: 19) Client -> Server : 1007 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 19) Server -> Client : 11564 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 1115 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png"   
+[Network Analyzer (1208: 580)]   (Sid: 17) Client -> Server : 1124 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jui/css/base/images/ui-icons_222222_256x240.png"   
+[Network Analyzer (1208: 580)]   (Sid: 18) Client -> Server : 1112 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a7f481c7/themes/default/default.css"   
+[Network Analyzer (1208: 580)]   (Sid: 19) Client -> Server : 1005 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 187 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 17) Server -> Client : 187 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 18) Server -> Client : 188 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 19) Server -> Client : 3414 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a7f481c7/themes/default/default.png"   
+[Network Analyzer (1208: 580)]   (Sid: 16) Client -> Server : 1005 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 16) Server -> Client : 8685 bytes  (Service=HTTP)
+[Network Analyzer (1208:1318)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: 580)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (1208:1318)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (1208: e40)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (1208:1068)] Request Connection: Remote Server @ 52.98.85.194:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (1208: 580)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (1208: 580)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer (1208: 580)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (1208: 580)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (1208: 580)]   (Sid:  2) Server -> Client : 261 bytes  (Service=HTTP)
+[Network Analyzer (1208:1068)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208:1068)] Request Connection: Remote Server @ 52.98.85.194:443   (Service=)  (Sid= 25)  PROXIED!
+[Net An. Error    (1208: 4bc)]   (Sid: 22) SSL handshake with remote server Failed!
+[Network Analyzer (1208: 580)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (1208: fc0)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: fc0)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 26)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/814c4f7b/indicator.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 26) Client -> Server : 992 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 26) Server -> Client : 1847 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 26) Connection Terminated (by Server)
+[Net An. Error    (1208:132c)]   (Sid: 23) SSL handshake with remote server Failed!
+[Net An. Error    (1208: 1bc)]   (Sid: 24) SSL handshake with remote server Failed!
+[Net An. Error    (1208: 6c4)]   (Sid: 25) SSL handshake with remote server Failed!
+[Network Analyzer (1208: fc0)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: fc0)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 27)  PROXIED!
+[Web Request      (1208: 580)] "POST /bugfree3.0.3/index.php/info/edit?type=case&action=opened&product_id=1"   
+[Network Analyzer (1208: 580)]   (Sid: 27) Client -> Server : 4487 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 27) Server -> Client : 608 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (1208:1068)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: fc0)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208:12dc)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: fc0)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 28)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/index.php/case/list/1"   
+[Network Analyzer (1208: 580)]   (Sid: 28) Client -> Server : 989 bytes (Service=HTTP)
+[Network Analyzer (1208:12dc)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 29)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/index.php/case/7"   
+[Network Analyzer (1208: 580)]   (Sid: 29) Client -> Server : 984 bytes (Service=HTTP)
+[Network Analyzer (1208:1068)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (1208: 580)]   (Sid: 28) Server -> Client : 11987 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/811484cb/zTreeStyle.css"   
+[Network Analyzer (1208: 580)]   (Sid: 28) Client -> Server : 1050 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 28) Server -> Client : 1601 bytes  (Service=HTTP)
+[Network Analyzer (1208: fc0)] Address lookup for muziwin7-PC = 192.168.229.128
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/811484cb/jquery.ztree.js"   
+[Network Analyzer (1208: 580)]   (Sid: 28) Client -> Server : 1052 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 28) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 28) Server -> Client : 1782 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/create_down.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 28) Client -> Server : 1057 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 28) Server -> Client : 187 bytes  (Service=HTTP)
+[Network Analyzer (1208:12dc)] Address lookup for muziwin7-PC = 192.168.229.128
+[Net An. Error    (1208: 4c0)]   (Sid: 30) SSL handshake with remote server Failed!
+[Network Analyzer (1208: 580)]   (Sid: 29) Server -> Client : 4682 bytes  (Service=HTTP)
+[Network Analyzer (1208:12dc)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 31)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/add_search.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 28) Client -> Server : 1056 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/close_div.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 31) Client -> Server : 1055 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 28) Server -> Client : 187 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 31) Server -> Client : 188 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/js/ajaxfileupload.js"   
+[Network Analyzer (1208: 580)]   (Sid: 29) Client -> Server : 1062 bytes (Service=HTTP)
+[Network Analyzer (1208: dc0)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: 580)]   (Sid: 29) Server -> Client : 2408 bytes  (Service=HTTP)
+[Network Analyzer (1208: e20)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: dc0)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (1208: e20)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 33)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/add.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 32) Client -> Server : 1049 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/late_left.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 33) Client -> Server : 1056 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 32) Server -> Client : 188 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 33) Server -> Client : 189 bytes  (Service=HTTP)
+[Network Analyzer (1208:12dc)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208:12dc)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 34)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/loading.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 28) Client -> Server : 1054 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/flag_1.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 31) Client -> Server : 1052 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/cancel_search.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 34) Client -> Server : 1059 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 28) Server -> Client : 188 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 31) Server -> Client : 187 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 34) Server -> Client : 188 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/down.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 29) Client -> Server : 1050 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 29) Server -> Client : 187 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/index.php/search/getPreNextId?id=7&type=case&product_id=1"   
+[Network Analyzer (1208: 580)]   (Sid: 32) Client -> Server : 1014 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images//close_div.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 33) Client -> Server : 1056 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "POST /bugfree3.0.3/index.php/search/getProductModule"   
+[Network Analyzer (1208: 580)]   (Sid: 28) Client -> Server : 1141 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 33) Server -> Client : 187 bytes  (Service=HTTP)
+[Network Analyzer (1208: 784)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: 580)]   (Sid: 32) Server -> Client : 614 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 28) Server -> Client : 502 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/811484cb/img/page.gif"   
+[Network Analyzer (1208: 580)]   (Sid: 31) Client -> Server : 1042 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 31) Server -> Client : 188 bytes  (Service=HTTP)
+[Network Analyzer (1208: 784)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid= 35)  PROXIED!
+[Net An. Error    (1208: 568)]   (Sid: 35) SSL handshake with remote server Failed!
+[Network Analyzer (1208: fc0)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid= 36)  PROXIED!
+[Net An. Error    (1208: 1f8)]   (Sid: 36) SSL handshake with remote server Failed!
+[Network Analyzer (1208: 580)]   (Sid: 34) Connection Terminated (by Server)
+[Network Analyzer (1208: 580)]   (Sid: 29) Connection Terminated (by Server)
+[Network Analyzer (1208: e20)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: e20)] Request Connection: Remote Server @ 204.79.197.212:80   (Service=)  (Sid= 37)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/index.php/case/7"   
+[Network Analyzer (1208: 580)]   (Sid: 33) Client -> Server : 944 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /favicon.ico"   
+[Network Analyzer (1208: 580)]   (Sid: 37) Client -> Server : 290 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /favicon.ico"   
+[Network Analyzer (1208: 580)]   (Sid: 32) Client -> Server : 831 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 32) Server -> Client : 8183 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 37) Server -> Client : 261 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 28) Connection Terminated (by Server)
+[Network Analyzer (1208: 580)]   (Sid: 31) Connection Terminated (by Server)
+[Network Analyzer (1208: 580)]   (Sid: 33) Server -> Client : 4681 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/css/form.css"   
+[Network Analyzer (1208: 580)]   (Sid: 32) Client -> Server : 1048 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 32) Server -> Client : 1041 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/css/style.css"   
+[Network Analyzer (1208: 580)]   (Sid: 33) Client -> Server : 1049 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 33) Server -> Client : 1092 bytes  (Service=HTTP)
+[Network Analyzer (1208: 18c)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: 654)] Address lookup for muziwin7-PC = 192.168.229.128
+[Network Analyzer (1208: 18c)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 38)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/css/bugfree3_basic.css"   
+[Network Analyzer (1208: 580)]   (Sid: 38) Client -> Server : 1059 bytes (Service=HTTP)
+[Network Analyzer (1208: 654)] Request Connection: Remote Server @ 192.168.239.1:8032   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (1208: 580)]   (Sid: 38) Server -> Client : 2823 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/js/overlib.js"   
+[Network Analyzer (1208: 580)]   (Sid: 39) Client -> Server : 1050 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 39) Server -> Client : 15030 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/js/main.js"   
+[Network Analyzer (1208: 580)]   (Sid: 32) Client -> Server : 1046 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 32) Server -> Client : 1137 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jui/css/base/jquery-ui.css"   
+[Network Analyzer (1208: 580)]   (Sid: 33) Client -> Server : 1057 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jquery.min.js"   
+[Network Analyzer (1208: 580)]   (Sid: 38) Client -> Server : 1045 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 33) Server -> Client : 4999 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 38) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 38) Server -> Client : 15917 bytes  (Service=HTTP)
+[Network Analyzer (1208: 18c)] Address lookup for muziwin7-PC = 192.168.229.128
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jquery.bgiframe.js"   
+[Network Analyzer (1208: 580)]   (Sid: 39) Client -> Server : 1048 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 39) Server -> Client : 1125 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/js/jquery.tools.min.js"   
+[Network Analyzer (1208: 580)]   (Sid: 32) Client -> Server : 1059 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 32) Server -> Client : 4900 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/js/jquery.form.js"   
+[Network Analyzer (1208: 580)]   (Sid: 33) Client -> Server : 1054 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 33) Server -> Client : 9467 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/css/green.css"   
+[Network Analyzer (1208: 580)]   (Sid: 38) Client -> Server : 1049 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 38) Server -> Client : 739 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/themes/classic/assets/images/green/logo.png"   
+[Network Analyzer (1208: 580)]   (Sid: 39) Client -> Server : 1052 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jui/js/jquery-ui.min.js"   
+[Network Analyzer (1208: 580)]   (Sid: 32) Client -> Server : 1055 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 39) Server -> Client : 188 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 32) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 32) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 32) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 32) Server -> Client : 2784 bytes  (Service=HTTP)
+[Network Analyzer (1208: 18c)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid= 40)  PROXIED!
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/index.php/search/getPreNextId?id=7&type=case&product_id=1"   
+[Network Analyzer (1208: 580)]   (Sid: 33) Client -> Server : 1014 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png"   
+[Network Analyzer (1208: 580)]   (Sid: 38) Client -> Server : 1075 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 38) Server -> Client : 187 bytes  (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png"   
+[Network Analyzer (1208: 580)]   (Sid: 39) Client -> Server : 1084 bytes (Service=HTTP)
+[Web Request      (1208: 580)] "GET /bugfree3.0.3/assets/a8aef226/jui/css/base/images/ui-icons_222222_256x240.png"   
+[Network Analyzer (1208: 580)]   (Sid: 32) Client -> Server : 1072 bytes (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 39) Server -> Client : 187 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 32) Server -> Client : 188 bytes  (Service=HTTP)
+[Network Analyzer (1208: 580)]   (Sid: 33) Server -> Client : 614 bytes  (Service=HTTP)
+[Network Analyzer (1208: e20)] Address lookup for muziwin7-PC = 192.168.229.128
+[Net An. Error    (1208: da0)]   (Sid: 40) SSL handshake with remote server Failed!
+[User action                 ] Pausing...  

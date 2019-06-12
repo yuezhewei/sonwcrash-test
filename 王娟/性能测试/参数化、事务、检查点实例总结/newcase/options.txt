@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\LR\scripts\newcase
+-IC:\LR\include
+-ec:\lr\scripts\newcase\\logfile.log
+c:\lr\scripts\newcase\\combined_newcase.c
+c:\lr\scripts\newcase\\pre_cci.c

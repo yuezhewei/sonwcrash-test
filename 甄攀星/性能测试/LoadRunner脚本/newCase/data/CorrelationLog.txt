@@ -1,0 +1,213 @@
+Debug Message:
+	Correlation engine instance created; using configuration Default
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/site/login
+
+Debug Message:
+	TaskID=5  URL=http://192.168.28.1:8032/bugfree/index.php/site/login
+
+Debug Message:
+	Rules could not be applied to http://www.bing.com/favicon.ico
+
+Debug Message:
+	Rules could not be applied to /bugfree/themes/classic/assets/images/blue/seperate_line.png
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/site/login
+
+Debug Message:
+	Rules could not be applied to /bugfree/themes/classic/assets/images/blue/logo_login.png
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/site/login
+
+Debug Message:
+	TaskID=31  URL=http://192.168.28.1:8032/bugfree/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree/themes/classic/assets/css/form.css
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree/themes/classic/assets/images/down.gif
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree/themes/classic/assets/images/active.png
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree/themes/classic/assets/images//close_div.gif
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree/assets/65cb0d52/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree/assets/65cb0d52/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree/assets/65cb0d52/jui/css/base/images/ui-icons_222222_256x240.png
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/search/getProductModule
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree/assets/c4a5a759/img/page.gif
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/case/list/1
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/bug/list/1
+
+Debug Message:
+	TaskID=82  URL=http://192.168.28.1:8032/bugfree/index.php/case/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree/themes/classic/assets/css/green.css
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/case/list/1
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/search/getProductModule
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/case/list/1
+
+Debug Message:
+	Rules could not be applied to http://www.bing.com/favicon.ico
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/case/list/1
+
+Debug Message:
+	TaskID=97  URL=http://192.168.28.1:8032/bugfree/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree/assets/65cb0d52/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree/assets/65cb0d52/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree/assets/65cb0d52/jui/css/base/images/ui-icons_222222_256x240.png
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree/assets/a2a4058f/themes/default/default.css
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree/assets/a2a4058f/themes/default/default.png
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree/assets/f94ed65d/indicator.gif
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree/assets/65cb0d52/jui/css/base/images/ui-bg_glass_75_e6e6e6_1x400.png
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree/assets/65cb0d52/jui/css/base/images/ui-bg_glass_55_fbf9ee_1x400.png
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree/assets/65cb0d52/jui/css/base/images/ui-bg_glass_75_dadada_1x400.png
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	TaskID=157  URL=http://192.168.28.1:8032/bugfree/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	TaskID=165  URL=http://192.168.28.1:8032/bugfree/index.php/case/list/1
+
+Debug Message:
+	TaskID=168  URL=http://192.168.28.1:8032/bugfree/index.php/case/3
+
+Debug Message:
+	Rules could not be applied to /bugfree/themes/classic/assets/images/down.gif
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/case/list/1
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/search/getPreNextId?id=3&type=case&product_id=1
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/case/3
+
+Debug Message:
+	Rules could not be applied to /bugfree/themes/classic/assets/images//close_div.gif
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/case/list/1
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/search/getProductModule
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/case/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree/assets/c4a5a759/img/page.gif
+
+Debug Message:
+	Rules could not be applied to http://192.168.28.1:8032/bugfree/index.php/case/list/1
+

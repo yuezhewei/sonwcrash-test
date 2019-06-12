@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Demo\newCase
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\demo\newcase\\logfile.log
+c:\demo\newcase\\combined_newCase.c
+c:\demo\newcase\\pre_cci.c
