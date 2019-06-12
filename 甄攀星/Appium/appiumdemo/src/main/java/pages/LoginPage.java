@@ -43,7 +43,6 @@ public class LoginPage {
             private WebElement forgetpwd;
     @FindBy(xpath = "//*[@text='咨询客服']")
             private WebElement forgetconsult;
-
     @FindBy(id = "btn_register")
             private WebElement btn_register;
     @FindBy(id = "et_phone")
@@ -56,14 +55,12 @@ public class LoginPage {
             private WebElement  et_pwd;
     @FindBy(id = "btn_register")
             private WebElement btn_reg;
-
     AndroidDriver driver;
     Actions action;
     public LoginPage(AndroidDriver driver){
         this.driver=driver;
         PageFactory.initElements(driver,this);//与@FindBy同时出现的
         action= new Actions(driver);
-
     }
     public void login(String name,String password){
 
@@ -72,14 +69,6 @@ public class LoginPage {
         action.type(et_password,password);
         action.click(btn_login);
     }
-//    @Test(dataProvider = "txt",dataProviderClass = NSDataProvider.class,description = "TXT登录")
-//    public void login1(String name,String password) {
-//
-//        action.click(icon_image);
-//        action.type((WebElement) et_username,name);
-//        action.type((WebElement) et_password,password);
-//        action.click(btn_login);
-//    }
     public void meetQuestion()
     {
         action.click(icon_image);
@@ -100,3 +89,11 @@ public class LoginPage {
         action.click(btn_reg);
     }
 }
+//    @Test(dataProvider = "txt",dataProviderClass = NSDataProvider.class,description = "TXT登录")
+//    public void login1(String name,String password) {
+//
+//        action.click(icon_image);
+//        action.type((WebElement) et_username,name);
+//        action.type((WebElement) et_password,password);
+//        action.click(btn_login);
+//    }

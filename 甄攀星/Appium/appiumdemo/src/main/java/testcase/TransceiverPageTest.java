@@ -1,5 +1,6 @@
 package testcase;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import base.BaseTest2;
@@ -13,5 +14,6 @@ public class TransceiverPageTest extends BaseTest2 {
     tp.openRadio();
     tp.nextMap();
     tp.swipePageImage();
+    Assert.assertEquals(getDriver().currentActivity(),".RadiodetailActivity");
 }
 }

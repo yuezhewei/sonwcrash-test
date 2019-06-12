@@ -12,7 +12,6 @@ import dataprovider.TxtDataProvider;
 import pages.LoginPage;
 
 public class LoginPageTest extends BaseTest2 {
-
     @Test
     public void loginsuccessful()
     {
@@ -20,23 +19,38 @@ public class LoginPageTest extends BaseTest2 {
         loginPage.login("15732176510","zhen0820");
         Assert.assertEquals(getDriver().currentActivity(),".MainActivity");
     }
-//    @DataProvider(name ="txt" )
-//    public  Object [][] getData(){
-//        return new Object[][]{{"15732176510","zhen0820"}};
-//    }
-
     @DataProvider(name="txt")
     public  Object[][] getTxtData() throws IOException {
         return new TxtDataProvider().getTxtUser("data/user.txt");
     }
-    @Test(dataProvider = "txt")
+    @Test(dataProvider = "txt" )
     public void driverLogin(String user,String pwd)
     {
 //        System.out.print(user);
         LoginPage loginPage=new LoginPage(getDriver());
         loginPage.login(user,pwd);
-
+        Assert.assertEquals(getDriver().currentActivity(),".MainActivity");
     }
+        @Test(description = "遇到问题")
+    public void meetquestionSuccessful()
+    {
+
+        LoginPage loginPage=new LoginPage(getDriver());
+        loginPage.meetQuestion();
+        Assert.assertEquals(getDriver().currentActivity(),".MainActivity");
+    }
+    @Test(description = "未获的验证码的失败注册")
+    public void registerFail()
+    {
+        LoginPage loginPage=new LoginPage(getDriver());
+        loginPage.register("15732176510","123456","123456","123456");
+        Assert.assertEquals(getDriver().currentActivity(),".activity.login.RegisterActivity");
+    }
+//    @DataProvider(name ="txt" )
+//    public  Object [][] getData(){
+//        return new Object[][]{{"15732176510","zhen0820"}};
+//    }
+
 
 //    @Test(description = "用户名正确，密码错误")
 //    public void loginfail1()
