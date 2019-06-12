@@ -20,6 +20,7 @@ public class Test1 {
         return driver;
     }
 
+	//提前把夜神模拟器切换到竖屏，才能执行
     @Test
     public void StartApp() throws IOException, InterruptedException {
         File classpathRoot = new File(System.getProperty("user.dir"));
