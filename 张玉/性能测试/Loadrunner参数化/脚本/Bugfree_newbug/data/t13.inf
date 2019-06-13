@@ -1,0 +1,13 @@
+[t13]
+FileName1=t13_overlib.html
+URL1=http://192.168.109.1:8032/bugfree/themes/classic/assets/js/overlib.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_13.xml
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t13_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

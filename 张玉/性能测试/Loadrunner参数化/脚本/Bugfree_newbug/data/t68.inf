@@ -1,0 +1,13 @@
+[t68]
+FileName1=t68_indicator.gif
+URL1=http://192.168.109.1:8032/bugfree/assets/f94ed65d/indicator.gif
+Total=1
+ContentType=image/gif
+SnapshotXmlFile=snapshot_68.xml
+RequestHeaderFile=t68_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t68_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

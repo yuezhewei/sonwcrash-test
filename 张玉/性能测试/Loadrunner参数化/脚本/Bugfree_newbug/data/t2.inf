@@ -1,0 +1,13 @@
+[t2]
+FileName1=t2_jquery.min.html
+URL1=http://192.168.109.1:8032/bugfree/assets/65cb0d52/jquery.min.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

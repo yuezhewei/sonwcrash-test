@@ -1,0 +1,13 @@
+[t30]
+FileName1=t30_create_down.gif
+URL1=http://192.168.109.1:8032/bugfree/themes/classic/assets/images/create_down.gif
+Total=1
+ContentType=image/gif
+SnapshotXmlFile=snapshot_30.xml
+RequestHeaderFile=t30_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t30_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

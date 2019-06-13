@@ -1,0 +1,13 @@
+[t54]
+FileName1=t54_jquery.bgiframe.html
+URL1=http://192.168.109.1:8032/bugfree/assets/65cb0d52/jquery.bgiframe.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_54.xml
+RequestHeaderFile=t54_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t54_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

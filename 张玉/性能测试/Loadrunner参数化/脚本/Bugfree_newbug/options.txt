@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Desktop\loadrunner\Bugfree_newbug
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\administrator\desktop\loadrunner\bugfree_newbug\\logfile.log
+c:\users\administrator\desktop\loadrunner\bugfree_newbug\\combined_Bugfree_newbug.c
+c:\users\administrator\desktop\loadrunner\bugfree_newbug\\pre_cci.c

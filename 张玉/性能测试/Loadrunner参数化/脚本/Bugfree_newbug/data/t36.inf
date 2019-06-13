@@ -1,0 +1,13 @@
+[t36]
+FileName1=t36_active.png
+URL1=http://192.168.109.1:8032/bugfree/themes/classic/assets/images/active.png
+Total=1
+ContentType=image/png
+SnapshotXmlFile=snapshot_36.xml
+RequestHeaderFile=t36_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t36_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

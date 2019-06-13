@@ -1,0 +1,13 @@
+[t32]
+FileName1=t32_flag_1.gif
+URL1=http://192.168.109.1:8032/bugfree/themes/classic/assets/images/flag_1.gif
+Total=1
+ContentType=image/gif
+SnapshotXmlFile=snapshot_32.xml
+RequestHeaderFile=t32_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t32_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

@@ -1,0 +1,13 @@
+[t63]
+FileName1=t63_jquery.form.html
+URL1=http://192.168.109.1:8032/bugfree/themes/classic/assets/js/jquery.form.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_63.xml
+RequestHeaderFile=t63_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t63_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

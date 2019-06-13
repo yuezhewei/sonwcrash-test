@@ -1,0 +1,13 @@
+[t40]
+FileName1=t40_ui-icons_222222_256x240.png
+URL1=http://192.168.109.1:8032/bugfree/assets/65cb0d52/jui/css/base/images/ui-icons_222222_256x240.png
+Total=1
+ContentType=image/png
+SnapshotXmlFile=snapshot_40.xml
+RequestHeaderFile=t40_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t40_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

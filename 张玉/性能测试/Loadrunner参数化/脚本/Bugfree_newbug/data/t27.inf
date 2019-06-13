@@ -1,0 +1,13 @@
+[t27]
+FileName1=t27_logo.png
+URL1=http://192.168.109.1:8032/bugfree/themes/classic/assets/images/blue/logo.png
+Total=1
+ContentType=image/png
+SnapshotXmlFile=snapshot_27.xml
+RequestHeaderFile=t27_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t27_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

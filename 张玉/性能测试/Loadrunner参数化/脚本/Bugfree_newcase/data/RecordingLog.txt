@@ -1,0 +1,432 @@
+[Network Analyzer ( e94: 58c)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( e94: 58c)] Load Network Traffic Analyzers:
+[Network Analyzer ( e94: 58c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( e94: 58c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( e94: 58c)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( e94: 58c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( e94: 58c)]     Analyzer Module: QTWeb (value=)
+[Network Analyzer ( e94: 58c)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( e94: 58c)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( e94: d50)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: b08)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: b08)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( e94: 750)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Web Request      ( e94: d50)] "GET /bugfree/index.php/bug/list/1"   
+[Network Analyzer ( e94: d50)]   (Sid:  1) Client -> Server : 813 bytes (Service=HTTP)
+[Network Analyzer ( e94: 750)] Request Connection: Remote Server @ 204.79.197.212:80   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      ( e94: d50)] "GET /favicon.ico"   
+[Network Analyzer ( e94: d50)]   (Sid:  2) Client -> Server : 269 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid:  1) Server -> Client : 485 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/index.php/site/login"   
+[Network Analyzer ( e94: d50)]   (Sid:  1) Client -> Server : 851 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid:  2) Server -> Client : 261 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid:  1) Server -> Client : 1693 bytes  (Service=HTTP)
+[Network Analyzer ( e94: 750)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jquery.min.js"   
+[Network Analyzer ( e94: d50)]   (Sid:  1) Client -> Server : 925 bytes (Service=HTTP)
+[Network Analyzer ( e94: b08)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: d50)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( e94: 750)] Request Connection: Remote Server @ 52.98.64.242:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( e94: b08)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( e94: d50)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer ( e94: 944)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: 944)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( e94: 750)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jquery.min.js"   
+[Network Analyzer ( e94: d50)]   (Sid:  5) Client -> Server : 925 bytes (Service=HTTP)
+[Network Analyzer ( e94: 750)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( e94: d50)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid:  5) Server -> Client : 15918 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/css/blue.css"   
+[Network Analyzer ( e94: d50)]   (Sid:  5) Client -> Server : 930 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid:  5) Server -> Client : 723 bytes  (Service=HTTP)
+[Network Analyzer ( e94: b08)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: b08)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/css/bugfree3_basic.css"   
+[Network Analyzer ( e94: d50)]   (Sid:  7) Client -> Server : 940 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid:  7) Server -> Client : 2823 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/blue/seperate_line.png"   
+[Network Analyzer ( e94: d50)]   (Sid:  5) Client -> Server : 947 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/blue/logo_login.png"   
+[Network Analyzer ( e94: d50)]   (Sid:  7) Client -> Server : 944 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid:  5) Server -> Client : 431 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid:  7) Server -> Client : 2335 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/favicon_blue.ico"   
+[Network Analyzer ( e94: d50)]   (Sid:  5) Client -> Server : 823 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid:  5) Server -> Client : 5983 bytes  (Service=HTTP)
+[Network Analyzer ( e94: fb8)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: fb8)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( e94: de8)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:DES-CBC3-SHA)
+[Network Analyzer ( e94: de8)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1, ciphers:RC4-SHA)
+[Net An. Error    ( e94: e24)]   (Sid:  6) SSL handshake with remote server Failed!
+[Net An. Error    ( e94: 3b8)]   (Sid:  8) SSL handshake with remote server Failed!
+[Network Analyzer ( e94: d50)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer ( e94: d50)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer ( e94: b08)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: b08)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      ( e94: d50)] "POST /bugfree/index.php/site/login"   
+[Network Analyzer ( e94: d50)]   (Sid:  9) Client -> Server : 1241 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid:  9) Server -> Client : 722 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/index.php/bug/list/1"   
+[Network Analyzer ( e94: d50)]   (Sid:  9) Client -> Server : 1052 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid:  9) Server -> Client : 12216 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/css/form.css"   
+[Network Analyzer ( e94: d50)]   (Sid:  9) Client -> Server : 930 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid:  9) Server -> Client : 1041 bytes  (Service=HTTP)
+[Network Analyzer ( e94: c9c)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: b08)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: 794)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: c9c)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( e94: d50)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer ( e94: d50)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer ( e94: b08)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer ( e94: 794)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer ( e94: 794)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: d50)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer ( e94: b08)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: 9a4)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: 794)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/css/style.css"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 931 bytes (Service=HTTP)
+[Network Analyzer ( e94: b08)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer ( e94: d50)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 1093 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/js/overlib.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 14) Client -> Server : 931 bytes (Service=HTTP)
+[Network Analyzer ( e94: 9a4)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 15030 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/css/form.css"   
+[Network Analyzer ( e94: d50)]   (Sid: 15) Client -> Server : 930 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 15) Server -> Client : 1042 bytes  (Service=HTTP)
+[Network Analyzer ( e94: 9a4)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/js/main.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 928 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 1137 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/c4a5a759/zTreeStyle.css"   
+[Network Analyzer ( e94: d50)]   (Sid: 14) Client -> Server : 926 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/f94ed65d/jquery.autocomplete.css"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 935 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/f94ed65d/thickbox.css"   
+[Network Analyzer ( e94: d50)]   (Sid: 15) Client -> Server : 924 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 777 bytes  (Service=HTTP)
+[Network Analyzer ( e94: b08)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 1601 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 15) Server -> Client : 1383 bytes  (Service=HTTP)
+[Network Analyzer ( e94: b08)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jui/css/base/jquery-ui.css"   
+[Network Analyzer ( e94: d50)]   (Sid: 16) Client -> Server : 938 bytes (Service=HTTP)
+[Network Analyzer ( e94: 9a4)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer ( e94: d50)]   (Sid: 16) Server -> Client : 5000 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jquery.bgiframe.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 930 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 1125 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/c4a5a759/jquery.ztree.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 14) Client -> Server : 927 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Net An. Error    ( e94: c90)]   (Sid: 17) SSL handshake with remote server Failed!
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 1782 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/f94ed65d/jquery.ajaxQueue.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 15) Client -> Server : 931 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 15) Server -> Client : 1344 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/f94ed65d/jquery.cookie.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 16) Client -> Server : 928 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 16) Server -> Client : 1053 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/f94ed65d/json2.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 920 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 5764 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/f94ed65d/jquery.autocomplete.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 14) Client -> Server : 934 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 7788 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/js/jquery.tools.min.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 15) Client -> Server : 940 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 15) Server -> Client : 4900 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/js/jquery.form.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 16) Client -> Server : 935 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 16) Server -> Client : 9467 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/blue/logo.png"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 938 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 1705 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/add.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 14) Client -> Server : 932 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/late_left.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 938 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/create_down.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 15) Client -> Server : 940 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/close_div.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 16) Client -> Server : 938 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 842 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 368 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 15) Server -> Client : 397 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 16) Server -> Client : 376 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/add_search.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 939 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 368 bytes  (Service=HTTP)
+[Network Analyzer ( e94: b08)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: b08)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( e94: c9c)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/flag_1.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 18) Client -> Server : 935 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 18) Server -> Client : 449 bytes  (Service=HTTP)
+[Network Analyzer ( e94: c9c)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jui/js/jquery-ui.min.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 19) Client -> Server : 935 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 19) Server -> Client : 2785 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/down.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 14) Client -> Server : 933 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 345 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/active.png"   
+[Network Analyzer ( e94: d50)]   (Sid: 15) Client -> Server : 935 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 15) Server -> Client : 507 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images//close_div.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 16) Client -> Server : 939 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 16) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 1078 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png"   
+[Network Analyzer ( e94: d50)]   (Sid: 18) Client -> Server : 963 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 18) Server -> Client : 365 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png"   
+[Network Analyzer ( e94: d50)]   (Sid: 19) Client -> Server : 972 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jui/css/base/images/ui-icons_222222_256x240.png"   
+[Network Analyzer ( e94: d50)]   (Sid: 14) Client -> Server : 959 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 19) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 4093 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "POST /bugfree/index.php/search/getProductModule"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 31 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 502 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/c4a5a759/img/page.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 15) Client -> Server : 924 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 15) Server -> Client : 866 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/index.php/case/list/1"   
+[Network Analyzer ( e94: d50)]   (Sid: 16) Client -> Server : 1028 bytes (Service=HTTP)
+[Network Analyzer ( e94: 944)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: d50)]   (Sid: 16) Server -> Client : 11790 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer ( e94: d50)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer ( e94: 944)] Request Connection: Remote Server @ 52.98.64.242:443   (Service=)  (Sid= 20)  PROXIED!
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/css/green.css"   
+[Network Analyzer ( e94: d50)]   (Sid: 19) Client -> Server : 932 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/green/logo.png"   
+[Network Analyzer ( e94: d50)]   (Sid: 14) Client -> Server : 940 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 19) Server -> Client : 739 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 1746 bytes  (Service=HTTP)
+[Network Analyzer ( e94: c9c)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/cancel_search.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 943 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/js/ajaxfileupload.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 15) Client -> Server : 939 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 360 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 15) Server -> Client : 2408 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/loading.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 16) Client -> Server : 937 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 16) Server -> Client : 714 bytes  (Service=HTTP)
+[Network Analyzer ( e94: c9c)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer ( e94: f7c)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:DES-CBC3-SHA)
+[Network Analyzer ( e94: f7c)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1, ciphers:RC4-SHA)
+[Web Request      ( e94: d50)] "GET /bugfree/favicon_green.ico"   
+[Network Analyzer ( e94: d50)]   (Sid: 19) Client -> Server : 824 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 14) Client -> Server : 1079 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /owa/"   
+[Network Analyzer ( e94: d50)]   (Sid: 20) Client -> Server : 380 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 19) Server -> Client : 5983 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "POST /bugfree/index.php/search/getProductModule"   
+[Network Analyzer ( e94: d50)]   (Sid: 14) Client -> Server : 31 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 502 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 20) Server -> Client : 1 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 20) Server -> Client : 2774 bytes (SSL) (Service=HTTP)
+[Net An. Error    ( e94: c44)]   (Sid: 21) SSL handshake with remote server Failed!
+[Network Analyzer ( e94: b08)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: b08)] Request Connection: Remote Server @ 157.55.135.132:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer ( e94: 290)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:DES-CBC3-SHA)
+[Network Analyzer ( e94: 290)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1, ciphers:RC4-SHA)
+[Web Request      ( e94: d50)] "GET /favicon.ico"   
+[Network Analyzer ( e94: d50)]   (Sid:  2) Client -> Server : 269 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid:  2) Server -> Client : 261 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /owa/"   
+[Network Analyzer ( e94: d50)]   (Sid: 20) Client -> Server : 543 bytes (SSL)(Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/index.php/info/edit?type=case&action=opened&product_id=1"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 953 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 20) Server -> Client : 1 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 20) Server -> Client : 2238 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 5674 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/js/overlib.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 14) Client -> Server : 1059 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/css/form.css"   
+[Network Analyzer ( e94: d50)]   (Sid: 15) Client -> Server : 1057 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/css/style.css"   
+[Network Analyzer ( e94: d50)]   (Sid: 16) Client -> Server : 1058 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/css/bugfree3_basic.css"   
+[Network Analyzer ( e94: d50)]   (Sid: 19) Client -> Server : 1068 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 15029 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 15) Server -> Client : 1041 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 16) Server -> Client : 1092 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 19) Server -> Client : 2822 bytes  (Service=HTTP)
+[Network Analyzer ( e94: 944)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/js/main.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 1055 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 1137 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/f94ed65d/thickbox.css"   
+[Network Analyzer ( e94: d50)]   (Sid: 14) Client -> Server : 1051 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/f94ed65d/jquery.autocomplete.css"   
+[Network Analyzer ( e94: d50)]   (Sid: 15) Client -> Server : 1062 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jui/css/base/jquery-ui.css"   
+[Network Analyzer ( e94: d50)]   (Sid: 16) Client -> Server : 1066 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jquery.min.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 19) Client -> Server : 1054 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 1383 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 15) Server -> Client : 777 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 16) Server -> Client : 4999 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 19) Server -> Client : 15917 bytes  (Service=HTTP)
+[Network Analyzer ( e94: 944)] Request Connection: Remote Server @ 157.55.135.132:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer ( e94: d50)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer ( e94: cf0)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jquery.multifile.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 967 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 6537 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jquery.bgiframe.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 14) Client -> Server : 1057 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 1125 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/f94ed65d/jquery.ajaxQueue.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 15) Client -> Server : 1058 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 15) Server -> Client : 1344 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/f94ed65d/jquery.cookie.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 16) Client -> Server : 1055 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 16) Server -> Client : 1053 bytes  (Service=HTTP)
+[Network Analyzer ( e94: cf0)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      ( e94: d50)] "GET /bugfree/assets/f94ed65d/json2.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 19) Client -> Server : 1048 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 19) Server -> Client : 5764 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/f94ed65d/jquery.autocomplete.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 1062 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 7788 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/a2a4058f/kindeditor-min.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 14) Client -> Server : 965 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 12223 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/a2a4058f/lang/zh_CN.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 15) Client -> Server : 961 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 15) Server -> Client : 3090 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/a2a4058f/plugins/preview/preview.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 16) Client -> Server : 974 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 16) Server -> Client : 907 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/js/jquery.tools.min.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 19) Client -> Server : 1068 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 19) Server -> Client : 4900 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/js/jquery.form.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 1063 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 9467 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/css/green.css"   
+[Network Analyzer ( e94: d50)]   (Sid: 14) Client -> Server : 1058 bytes (Service=HTTP)
+[Network Analyzer ( e94: d10)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:DES-CBC3-SHA)
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 739 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/green/logo.png"   
+[Network Analyzer ( e94: d50)]   (Sid: 15) Client -> Server : 1061 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 15) Server -> Client : 188 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jui/js/jquery-ui.min.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 16) Client -> Server : 1064 bytes (Service=HTTP)
+[Network Analyzer ( e94: d10)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1, ciphers:RC4-SHA)
+[Network Analyzer ( e94: d50)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Net An. Error    ( e94: cac)]   (Sid: 24) SSL handshake with remote server Failed!
+[Network Analyzer ( e94: d50)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 16) Server -> Client : 2784 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jui/js/jquery-ui-i18n.min.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 19) Client -> Server : 976 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 19) Server -> Client : 11564 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 1084 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 187 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png"   
+[Network Analyzer ( e94: d50)]   (Sid: 14) Client -> Server : 1093 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/65cb0d52/jui/css/base/images/ui-icons_222222_256x240.png"   
+[Network Analyzer ( e94: d50)]   (Sid: 15) Client -> Server : 1081 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 14) Server -> Client : 187 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 15) Server -> Client : 188 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/a2a4058f/themes/default/default.css"   
+[Network Analyzer ( e94: d50)]   (Sid: 16) Client -> Server : 974 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 16) Server -> Client : 3414 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/a2a4058f/themes/default/default.png"   
+[Network Analyzer ( e94: d50)]   (Sid: 19) Client -> Server : 974 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 19) Server -> Client : 8685 bytes  (Service=HTTP)
+[Network Analyzer ( e94: dfc)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: dfc)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid= 25)  PROXIED!
+[Net An. Error    ( e94: ff4)]   (Sid: 25) SSL handshake with remote server Failed!
+[Web Request      ( e94: d50)] "GET /bugfree/assets/f94ed65d/indicator.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 13) Client -> Server : 961 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Server -> Client : 1846 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer ( e94: d50)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer ( e94: d50)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer ( e94: d50)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer ( e94: d50)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer ( e94: f48)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: f48)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid= 26)  PROXIED!
+[Web Request      ( e94: d50)] "POST /bugfree/index.php/info/edit?type=case&action=opened&product_id=1"   
+[Network Analyzer ( e94: d50)]   (Sid: 26) Client -> Server : 4304 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 26) Server -> Client : 603 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 26) Server -> Client : 5250 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer ( e94: cfc)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: af0)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: af0)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer ( e94: e30)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Web Request      ( e94: d50)] "GET /bugfree/index.php/case/list/1"   
+[Network Analyzer ( e94: d50)]   (Sid: 27) Client -> Server : 963 bytes (Service=HTTP)
+[Network Analyzer ( e94: e30)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid= 28)  PROXIED!
+[Web Request      ( e94: d50)] "GET /bugfree/index.php/case/5"   
+[Network Analyzer ( e94: d50)]   (Sid: 28) Client -> Server : 958 bytes (Service=HTTP)
+[Network Analyzer ( e94: cfc)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer ( e94: d50)]   (Sid: 27) Server -> Client : 11823 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/assets/c4a5a759/zTreeStyle.css"   
+[Network Analyzer ( e94: d50)]   (Sid: 27) Client -> Server : 1019 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 27) Server -> Client : 1601 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 28) Server -> Client : 4562 bytes  (Service=HTTP)
+[Network Analyzer ( e94: e30)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: e30)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid= 30)  PROXIED!
+[Net An. Error    ( e94: 664)]   (Sid: 29) SSL handshake with remote server Failed!
+[Web Request      ( e94: d50)] "GET /bugfree/assets/c4a5a759/jquery.ztree.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 27) Client -> Server : 1021 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 30) Connection Terminated (by Client)
+[Network Analyzer ( e94: d50)]   (Sid: 27) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( e94: e30)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: e30)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer ( e94: d50)]   (Sid: 22) Connection Terminated (by Client)
+[Net An. Error    ( e94: 578)]   (Sid: 31) SSL handshake with remote server Failed!
+[Network Analyzer ( e94: d50)]   (Sid: 27) Server -> Client : 1782 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/index.php/search/getPreNextId?id=5&type=case&product_id=1"   
+[Network Analyzer ( e94: d50)]   (Sid: 28) Client -> Server : 983 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 28) Server -> Client : 609 bytes  (Service=HTTP)
+[Network Analyzer ( e94: af0)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: f48)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/add.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 27) Client -> Server : 1018 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/create_down.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 28) Client -> Server : 1026 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 27) Server -> Client : 187 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 28) Server -> Client : 187 bytes  (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/add_search.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 27) Client -> Server : 1025 bytes (Service=HTTP)
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/cancel_search.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 28) Client -> Server : 1028 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 27) Server -> Client : 187 bytes  (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 28) Server -> Client : 187 bytes  (Service=HTTP)
+[Network Analyzer ( e94: af0)] Request Connection: Remote Server @ 168.63.244.178:443   (Service=)  (Sid= 32)  PROXIED!
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/js/ajaxfileupload.js"   
+[Network Analyzer ( e94: d50)]   (Sid: 28) Client -> Server : 1031 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 28) Server -> Client : 2408 bytes  (Service=HTTP)
+[Network Analyzer ( e94: 64c)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Network Analyzer ( e94: 64c)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer ( e94: 3bc)] Address lookup for WIN-VQ82MAM3JTN = 192.168.109.128
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/close_div.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 33) Client -> Server : 1024 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 33) Server -> Client : 188 bytes  (Service=HTTP)
+[Network Analyzer ( e94: 3bc)] Request Connection: Remote Server @ 192.168.109.1:8032   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer ( e94: f48)] Request Connection: Remote Server @ 157.55.135.132:443   (Service=)  (Sid= 35)  PROXIED!
+[Web Request      ( e94: d50)] "GET /bugfree/themes/classic/assets/images/late_left.gif"   
+[Network Analyzer ( e94: d50)]   (Sid: 34) Client -> Server : 1025 bytes (Service=HTTP)
+[Network Analyzer ( e94: d50)]   (Sid: 34) Server -> Client : 189 bytes  (Service=HTTP)
+[Net An. Error    ( e94: 150)]   (Sid: 32) SSL handshake with remote server Failed!

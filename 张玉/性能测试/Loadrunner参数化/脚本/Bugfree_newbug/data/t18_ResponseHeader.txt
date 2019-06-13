@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Mon, 27 May 2019 06:20:31 GMT
+Server: Apache/2.4.6 (Win32) PHP/5.5.1
+Last-Modified: Tue, 20 Mar 2018 01:39:53 GMT
+ETag: "648a-567ce26a979ed-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 4654
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Content-Type: text/css
+

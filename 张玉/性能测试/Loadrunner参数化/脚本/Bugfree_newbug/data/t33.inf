@@ -1,0 +1,13 @@
+[t33]
+FileName1=t33_jquery-ui.min.html
+URL1=http://192.168.109.1:8032/bugfree/assets/65cb0d52/jui/js/jquery-ui.min.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_33.xml
+RequestHeaderFile=t33_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t33_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

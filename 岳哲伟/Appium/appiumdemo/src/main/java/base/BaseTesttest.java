@@ -40,4 +40,5 @@ public class BaseTesttest {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 //        driver.findElementByLinkText("新闻");
     }
+
 }
