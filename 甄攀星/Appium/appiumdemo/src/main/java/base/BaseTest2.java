@@ -14,7 +14,10 @@ import java.util.concurrent.TimeUnit;
 
 import io.appium.java_client.android.AndroidDriver;
 import utils.*;
-
+/*
+作者：甄攀星
+内容：打开APP
+ */
 public class BaseTest2 {
     public AndroidDriver<WebElement> driver;
     public AndroidDriver getDriver() {

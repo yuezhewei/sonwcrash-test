@@ -14,7 +14,10 @@ import javax.swing.Action;
 import dataprovider.NSDataProvider;
 import io.appium.java_client.android.AndroidDriver;
 import utils.Actions;
-//登录页面
+/*
+作者:甄攀星
+内容：登录
+ */
 public class LoginPage {
 
     //利用typeFindBy登录操作

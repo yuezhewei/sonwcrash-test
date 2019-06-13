@@ -8,7 +8,10 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.touch.offset.PointOption;
 import utils.Actions;
 
-//APP首页
+/*
+作者：甄攀星
+内容：首页
+ */
 public class HomePage {
 
     @FindBy(id = "index_horizontal_list_image")

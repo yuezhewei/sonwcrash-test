@@ -6,7 +6,10 @@ import org.openqa.selenium.support.PageFactory;
 
 import io.appium.java_client.android.AndroidDriver;
 import utils.Actions;
-//搜索页面
+/*
+作者：甄攀星
+内容：搜素页面
+ */
 public class SearchPage {
     @FindBy(id = "search_src_text")
     private WebElement search_text;

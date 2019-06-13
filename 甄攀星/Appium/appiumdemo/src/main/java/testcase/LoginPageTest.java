@@ -10,7 +10,10 @@ import base.BaseTest2;
 import dataprovider.NSDataProvider;
 import dataprovider.TxtDataProvider;
 import pages.LoginPage;
-
+/*
+作者：甄攀星
+内容：登录注册测试用例
+ */
 public class LoginPageTest extends BaseTest2 {
     @Test
     public void loginsuccessful()

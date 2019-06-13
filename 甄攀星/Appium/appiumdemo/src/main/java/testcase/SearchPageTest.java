@@ -6,7 +6,10 @@ import org.testng.annotations.Test;
 import base.BaseTest2;
 import pages.LoginPage;
 import pages.SearchPage;
-
+/*
+作者：甄攀星
+内容：搜索测试用例
+ */
 public class SearchPageTest extends BaseTest2 {
     @Test(description = "搜索页面上没有的字符串")
     public void SearchOther()

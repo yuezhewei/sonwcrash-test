@@ -5,7 +5,10 @@ import javax.swing.Action;
 import io.appium.java_client.android.AndroidDriver;
 import swipe.SwipeClass;
 import utils.Actions;
-//电台页面
+/*
+作者：甄攀星
+内容：电台页面
+ */
 public class TransceiverPage {
     @FindBy(id="radio_image")
     private String radio_image;

@@ -6,7 +6,10 @@ import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
-
+/*
+作者：甄攀星
+内容：实现页面划动的方法
+ */
 public class SwipeClass{
     AndroidDriver driver;
 
