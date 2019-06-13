@@ -1,0 +1,25 @@
+Select next row：如何选择下一行数据。该处有三个选项"Sequential","Random","Unique"
+
+Sequential：顺序地向Vuser分配数据
+Random：随机为每个Vuser分配一个数据表中的数据
+Unique：为每一个Vuser的参数分配一个唯一的值
+
+update value on：什么时候更新数据值，选项有each iteration、each occurrence、once
+
+each iteration：每次迭代
+each occurrence：每次出现
+once：一次
+
+顺序+每次迭代：对于每次迭代Vuser会从数据表中提取下一个值
+顺序+每次出现：参数每次出现，Vuser将从数据表中提取下一个值，
+即使在同一次迭代中
+顺序+一次：第一次迭代所分配的值将用于所有的后续迭代
+
+随机+每次迭代：对于每次迭代Vuser会从数据表中提取随机值
+随机+每次出现：参数每次出现，Vuser将从数据表中提取随机值，
+即使在同一次迭代中
+随机+一次：第一次迭代中分配的随机值将用于该Vuser的所有迭代
+
+唯一+每次迭代：对于每次迭代，Vuser会从数据表中提取下一个唯一值。
+唯一+每次出现：参数每次出现时，Vuser将从数据表中提取新的唯一值，即使在同一迭代中。
+唯一+一次：第一次迭代中分配的唯一值将用于该Vuser的所有后续迭代
