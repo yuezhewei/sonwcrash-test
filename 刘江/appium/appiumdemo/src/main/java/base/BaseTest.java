@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 import io.appium.java_client.android.AndroidDriver;
 import swipe.SwipeClass;
 
-public class BaseTest1 {
+public class BaseTest {
     public AndroidDriver<WebElement> driver;
 
     public AndroidDriver getDriver() {
@@ -30,13 +30,8 @@ public class BaseTest1 {
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
         capabilities.setCapability("deviceName", "127.0.0.1:62001");
-//        capabilities.setCapability("app", app.getAbsolutePath());
-
-
         capabilities.setCapability("appPackage", "cn.edu.hebtu.software.snowcarsh2");
-        //activity改变无影响
         capabilities.setCapability("appActivity", ".activity.startActvity.WelcomeActivity");
-
         driver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         SwipeClass swipeClass=new SwipeClass();
